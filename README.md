@@ -16,8 +16,11 @@ automáticamente cuando hay una nueva, muestran sus novedades y ofrecen descarga
 
 ## Primera apertura
 
-- **macOS:** si aparece "no se puede abrir porque es de un desarrollador no
-  identificado", haz clic derecho sobre la app → Abrir → Abrir.
+- **macOS 15 (Sequoia) o posterior:** si aparece un aviso de que la app no se
+  puede verificar, ciérralo, abre **Ajustes del Sistema → Privacidad y seguridad**,
+  baja hasta el mensaje sobre la app y pulsa **Abrir igualmente** (te pedirá la
+  contraseña). Sólo hace falta la primera vez.
+- **macOS 14 o anterior:** haz clic derecho sobre la app → **Abrir** → **Abrir**.
 - **Windows:** si aparece SmartScreen, pulsa "Más información" → "Ejecutar de todas formas".
 
 ## Novedades
