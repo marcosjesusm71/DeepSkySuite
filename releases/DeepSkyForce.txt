@@ -1,0 +1,33 @@
+DeepSkyForce - Novedades
+========================
+
+15/10/2026
+- Compatibilidad con telescopios DWARF (Draco, DWARF 3, DWARF II) además de Seestar.
+- El apilado que guarda el propio telescopio (Seestar o DWARF) ya no se mezcla con las tomas individuales.
+- Se ignoran las tomas de la carpeta Solving_Failed de DWARF, que el telescopio ya había descartado.
+- Los darks de la biblioteca CALI_FRAME de DWARF se usan automáticamente, eligiendo los de la misma ganancia y la temperatura más próxima.
+- Mosaicos DWARF: cada panel se reconoce por su posición real (shotsInfo.json) y ya no se mezclan en un solo campo.
+- Mosaicos con poco solape entre paneles: se registran por las estrellas de la franja común y se obtiene la imagen completa.
+- Se ignoran las tomas "failed_" que el propio DWARF marcó como fallidas.
+- Corregido: con cámaras con muchos píxeles calientes (DWARF 3) el alineado se fijaba en ellos y las estrellas desaparecían del resultado.
+- El análisis de calidad ignora los píxeles calientes al medir las estrellas (la primera vez se reanalizarán las sesiones).
+- La firma indica el telescopio real (p. ej. "17 x 300s - DWARF Draco" o "Seestar S50").
+- Ajustes de imagen en vivo: al mover los controles se ve el cambio al instante en una vista rápida y, al soltar, se calcula la imagen a resolución completa.
+- "Auto local" responde al instante: muestra una vista rápida y calcula el acabado completo por detrás; la exportación espera a que termine.
+- La reducción de estrellas se aplica en segundo plano y casi en vivo; la primera separación de estrellas ya no bloquea la ventana.
+- Corregido: reducir estrellas tras ajustar los controles a mano ya no deshace esos ajustes.
+- Corregido: el selector de perfil de estirado volvía a "Personalizado" al elegir un perfil.
+- Corregido: los valores mostrados junto a los controles no se actualizaban al aplicar un perfil.
+
+14/10/2026
+- Las opciones de IA sólo aparecen si hay una clave de OpenAI configurada.
+- La versión se identifica por la fecha de compilación y se muestra su fecha de validez.
+- Manual actualizado.
+- Nuevo icono de la aplicación.
+
+13/10/2026
+- Mejoras en los ajustes de procesado.
+- Vuelve el selector nativo de carpetas.
+
+12/10/2026
+- Mejoras en la calidad de imagen, los ajustes y el manual.

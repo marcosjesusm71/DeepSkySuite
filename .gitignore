@@ -1,0 +1,6 @@
+# Zips generados en cada máquina: se adjuntan a la Release de GitHub, nunca al repositorio
+# (GitHub rechaza ficheros de más de 100 MB en un push).
+dist/
+.DS_Store
+__pycache__/
+*.pyc
