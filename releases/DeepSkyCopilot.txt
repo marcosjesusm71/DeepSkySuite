@@ -2,6 +2,7 @@ DeepSkyCopilot - Registro de cambios
 (una línea por modificación; lo más reciente arriba)
 
 2026-10-15
+- Aviso de versiones nuevas de DeepSkySuite: muestra las novedades y descarga el zip a la carpeta Descargas (también al caducar la versión de prueba).
 - Aviso en el registro cuando el telescopio no informa por Alpaca de focal, píxel o tamaño de sensor (el campo del mapa puede no ser el real).
 - Añadido manual de usuario.
 

@@ -2,6 +2,7 @@ DeepSkyForce - Novedades
 ========================
 
 15/10/2026
+- Aviso de versiones nuevas de DeepSkySuite: muestra las novedades y descarga el zip a la carpeta Descargas (también al caducar la versión de prueba).
 - Compatibilidad con telescopios DWARF (Draco, DWARF 3, DWARF II) además de Seestar.
 - El apilado que guarda el propio telescopio (Seestar o DWARF) ya no se mezcla con las tomas individuales.
 - Se ignoran las tomas de la carpeta Solving_Failed de DWARF, que el telescopio ya había descartado.
