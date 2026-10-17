@@ -1,5 +1,18 @@
 DeepSkyCopilot - Registro de cambios
-(una línea por modificación; lo más reciente arriba)
+(novedades por versión publicada; lo más reciente arriba)
+
+2026-10-17
+- Apilado en directo: ventana con el encuadre completo que se rellena con cada toma buena, el panel en el que está el telescopio y dónde apunta la montura, con zoom y 1:1 (pestaña Visor).
+- El contador de tomas muestra el progreso de todo el objetivo y las que quedan, no el de la pasada en curso.
+- «Acerca de» tiene un botón para abrir la carpeta de registros, para enviarlos si hay algún problema.
+- Manual actualizado.
+- Al avisar de una versión nueva, las novedades se muestran por versión publicada, sin repetir lo que ya tienes.
+- Si el Seestar rechaza los GoTo porque no sabe adónde apunta («fail to operate», a veces al encenderlo), la cola e «Ir y Centrar» explican cómo solucionarlo: cerrar una vez el brazo con la app Seestar y abrirlo desde DeepSkyCopilot.
+- «Abrir brazo» eleva el brazo hasta sacarlo del todo, sin tener que pulsar «elevar» aparte.
+- El visor mantiene el zoom y la posición al llegar una foto nueva, para comparar tomas o con el apilado en directo.
+- Corregido: algunas tomas con estrellas claramente movidas se guardaban como buenas en lugar de apartarse en «rechazadas».
+- Corregido: un objetivo de un solo campo podía repartirse en 4 fotos casi iguales (o un mosaico llevar una columna de más) si la cámara estaba girada unas décimas de grado.
+- Corregido: si un re-centrado fallaba, la sesión seguía desplazada; ahora se reintenta en las tomas siguientes.
 
 2026-10-15
 - Aviso de versiones nuevas de DeepSkySuite: muestra las novedades y descarga el zip a la carpeta Descargas (también al caducar la versión de prueba).

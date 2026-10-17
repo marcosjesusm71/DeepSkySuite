@@ -1,6 +1,10 @@
 DeepSkyForce - Novedades
 ========================
 
+17/10/2026
+- Darks: cada toma se calibra con el dark de la temperatura más próxima a la suya (sesiones de varias noches con temperaturas distintas), y los píxeles calientes que muestran se excluyen del alineado.
+- Al avisar de una versión nueva, las novedades se muestran por versión publicada, sin repetir lo que ya tienes.
+
 15/10/2026
 - Aviso de versiones nuevas de DeepSkySuite: muestra las novedades y descarga el zip a la carpeta Descargas (también al caducar la versión de prueba).
 - Compatibilidad con telescopios DWARF (Draco, DWARF 3, DWARF II) además de Seestar.
