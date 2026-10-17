@@ -15,6 +15,20 @@
             "version": "2026.10.17"
           }
         }
+      },
+      "Windows": {
+        "zip": "DeepSkySuite-Windows-2026-10-17.zip",
+        "size": 239357707,
+        "apps": {
+          "DeepSkyForce": {
+            "built_at": "2026-10-17T09:03:59+00:00",
+            "version": "2026.10.17.3"
+          },
+          "DeepSkyCopilot": {
+            "built_at": "2026-10-17T09:07:39+00:00",
+            "version": "2026.10.17.3"
+          }
+        }
       }
     },
     {
