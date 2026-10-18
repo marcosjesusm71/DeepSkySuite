@@ -1,6 +1,9 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-18
+- Corregido: el Seestar recién encendido ya no rechaza los GoTo («fail to operate»); deja de hacer falta cerrar el brazo con la app Seestar.
+
 2026-10-17
 - Apilado en directo: ventana con el encuadre completo que se rellena con cada toma buena, el panel en el que está el telescopio y dónde apunta la montura, con zoom y 1:1 (pestaña Visor).
 - El contador de tomas muestra el progreso de todo el objetivo y las que quedan, no el de la pasada en curso.

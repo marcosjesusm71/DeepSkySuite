@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "tag": "2026-10-18",
+      "MacOS": {
+        "zip": "DeepSkySuite-MacOS-2026-10-18.zip",
+        "size": 198113335,
+        "apps": {
+          "DeepSkyForce": {
+            "built_at": "2026-10-18T17:28:04+00:00",
+            "version": "2026.10.18"
+          },
+          "DeepSkyCopilot": {
+            "built_at": "2026-10-18T17:29:54+00:00",
+            "version": "2026.10.18"
+          }
+        }
+      }
+    },
+    {
       "tag": "2026-10-17",
       "MacOS": {
         "zip": "DeepSkySuite-MacOS-2026-10-17.zip",
