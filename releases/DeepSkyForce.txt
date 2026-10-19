@@ -1,6 +1,13 @@
 DeepSkyForce - Novedades
 ========================
 
+19/10/2026
+- Procesado inteligente (sin IA, activado por defecto y desactivable en «Ajuste de imagen»): separa las estrellas, limpia la nebulosa y la realza según su propia señal sin aclarar el cielo; los sliders de brillo y realce ya sólo afectan a la nebulosa.
+- Paleta Hubble sin IA (opción en «Ajuste de imagen»): tiñe la nebulosa de dorado (Hα) y cian (OIII) conservando su estructura y el color de las estrellas; pensada para filtro dual y desactivada en galaxias.
+- «Ajuste de imagen» más compacto: la optimización de sliders con IA se elige en el perfil de estirado («Optimizado por IA») en lugar de con un botón aparte.
+- Corregido: la saturación al mínimo deja la foto en blanco y negro, estrellas incluidas.
+- Corregido: al abrir un JPG ya no aparece la pestaña «Ajuste de imagen», cuyos controles no tenían efecto sobre una imagen ya terminada.
+
 17/10/2026
 - Darks: cada toma se calibra con el dark de la temperatura más próxima a la suya (sesiones de varias noches con temperaturas distintas), y los píxeles calientes que muestran se excluyen del alineado.
 - Al avisar de una versión nueva, las novedades se muestran por versión publicada, sin repetir lo que ya tienes.
