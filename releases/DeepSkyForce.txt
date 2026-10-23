@@ -1,6 +1,12 @@
 DeepSkyForce - Novedades
 ========================
 
+23/10/2026
+- Manual actualizado con el procesado inteligente, la paleta Hubble, el perfil «Optimizado por IA» y el retoque de FITS ya estirados.
+- Corregido: el procesado inteligente en galaxias (p. ej. M31) ya no aplana el disco ni deja puntos negros en su borde, y las galaxias satélite pequeñas como M32 no muestran un anillo oscuro.
+- Al desactivar el procesado inteligente se desmarca también la paleta Hubble, que sólo funciona con él.
+- Al arrastrar un FITS que ya está estirado (por ejemplo, guardado desde Siril) se detecta automáticamente, se avisa de que la edición es limitada y se abre tal cual, sin volver a estirarlo; los ajustes de imagen pasan a retocarlo (nivel del cielo, brillo, saturación, contraste local, reducción de ruido y de estrellas, paleta Hubble) y «↺ Original» lo devuelve a como se abrió.
+
 19/10/2026
 - Procesado inteligente (sin IA, activado por defecto y desactivable en «Ajuste de imagen»): separa las estrellas, limpia la nebulosa y la realza según su propia señal sin aclarar el cielo; los sliders de brillo y realce ya sólo afectan a la nebulosa.
 - Paleta Hubble sin IA (opción en «Ajuste de imagen»): tiñe la nebulosa de dorado (Hα) y cian (OIII) conservando su estructura y el color de las estrellas; pensada para filtro dual y desactivada en galaxias.

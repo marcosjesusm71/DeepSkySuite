@@ -1,6 +1,9 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-23
+- Apilado en directo en la tele: la app busca los Chromecast y Google TV de la red y les envía el apilado con el estado de la sesión (progreso, tiempo que falta, descartes y nitidez), actualizado con cada toma.
+
 2026-10-18
 - Corregido: el Seestar recién encendido ya no rechaza los GoTo («fail to operate»); deja de hacer falta cerrar el brazo con la app Seestar.
 
