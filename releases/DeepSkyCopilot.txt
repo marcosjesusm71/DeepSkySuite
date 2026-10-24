@@ -2,6 +2,18 @@ DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
 2026-10-24
+- Interfaz más fácil: nueva pestaña Inicio con la noche de un vistazo (lugar, Luna, telescopio y cola) y un botón grande «Empezar la noche» que dice qué falta; pestañas renombradas (Telescopio, Objetivo, Captura, En directo) y textos sin tecnicismos.
+- Asistente de inicio la primera vez (y tras esta actualización): lugar y cielo visible, ASTAP, si usas cuña ecuatorial y app sencilla o avanzada; se puede volver a ver desde Ajustes.
+- Modo sencillo (por defecto) y avanzado: el sencillo oculta la ganancia, el dithering, los intervalos de enfoque y centrado, el número de darks, las coordenadas a mano y la rotación exacta.
+- Pestaña Telescopio: estado del telescopio tal como lo informa su driver (montura, cámara, óptica, enfocador, filtro), aviso si su ubicación o su reloj no coinciden, y la alineación polar plegada salvo en modo ecuatorial.
+- Pestaña Objetivo en tres pasos (elige, encuadra, añade): los resultados de la búsqueda salen en una lista con cuándo se ven esta noche, su altura máxima y la Luna.
+- Pestaña En directo: la última foto y el apilado en directo en la misma pestaña, con Enviar a la tele.
+- Cabecera más clara: botones con nombre, hacia dónde apunta el telescopio («SE +45°») y lugar y noche en un solo botón; el registro de la captura va plegado mostrando su última línea.
+- DeepSkySuite: actualizar con un clic: al abrir la app, si hay una versión nueva, «Actualizar ahora» la descarga, la comprueba, la instala y vuelve a abrir la app.
+- La focal del telescopio se mide sola con la primera foto que resuelve ASTAP y se guarda para ese telescopio: el campo, los mosaicos y el centrado son los reales también en S30 Pro, S50, S50 Pro u otros, aunque el telescopio no informe de su focal. En Ajustes avanzados se puede elegir el modelo de Seestar o escribirla a mano (con el píxel), y el estado del telescopio dice de dónde sale cada dato.
+- Ajustes: «Mostrar opciones avanzadas» es ahora la primera casilla y, en modo sencillo, solo se ven el autofocus, el centrado, los darks, aparcar, la carpeta y las estadísticas (lo demás, con sus valores recomendados).
+- Estadísticas de uso: la zona aproximada se envía con más detalle (unos 10 km, la población, en lugar de 100 km); nunca la ubicación exacta.
+- Manual actualizado con la nueva interfaz, el asistente y las actualizaciones.
 - Acceso desde el móvil (botón 📱): con un QR se abre en el móvil una página con la sesión en curso, la última foto y el apilado, la alineación polar (con ajuste en directo), mover el telescopio y hacer fotos de prueba, el estado del telescopio (y el anti-rocío), la cola de la noche y avisos con sonido.
 - Planificar otra noche (botón 📅 junto al lugar): eliges fecha y lugar guardado y la cola, el plan de la noche, la búsqueda y «Esta noche» se calculan como si estuvieras allí ese día.
 - La Luna en la planificación: fase y horas sobre el horizonte en el resumen y el plan de la noche, y un semáforo (🟢 no molesta, 🟡 en parte, 🔴 desaconsejada) en «Esta noche», con filtro, y en el horario de la cola.

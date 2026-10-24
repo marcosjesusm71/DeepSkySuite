@@ -2,6 +2,8 @@ DeepSkyForce - Novedades
 ========================
 
 24/10/2026
+- Cabecera de lado a lado con los botones Ajustes, Mensajes, Acerca de y Manual con su nombre, igual que en DeepSkyCopilot.
+- Actualizar con un clic: al abrir la aplicación, si hay una versión nueva, «Actualizar ahora» la descarga, la comprueba, la instala y vuelve a abrirla.
 - Botón Mensajes para enviar al autor errores, sugerencias o comentarios (con capturas o archivos); cuando se publica el arreglo, la app enseña la respuesta.
 
 23/10/2026
