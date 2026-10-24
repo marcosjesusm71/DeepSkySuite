@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades
 ========================
 
+24/10/2026
+- Botón Mensajes para enviar al autor errores, sugerencias o comentarios (con capturas o archivos); cuando se publica el arreglo, la app enseña la respuesta.
+
 23/10/2026
 - Manual actualizado con el procesado inteligente, la paleta Hubble, el perfil «Optimizado por IA» y el retoque de FITS ya estirados.
 - Corregido: el procesado inteligente en galaxias (p. ej. M31) ya no aplana el disco ni deja puntos negros en su borde, y las galaxias satélite pequeñas como M32 no muestran un anillo oscuro.

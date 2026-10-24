@@ -1,6 +1,17 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-24
+- Acceso desde el móvil (botón 📱): con un QR se abre en el móvil una página con la sesión en curso, la última foto y el apilado, la alineación polar (con ajuste en directo), mover el telescopio y hacer fotos de prueba, el estado del telescopio (y el anti-rocío), la cola de la noche y avisos con sonido.
+- Planificar otra noche (botón 📅 junto al lugar): eliges fecha y lugar guardado y la cola, el plan de la noche, la búsqueda y «Esta noche» se calculan como si estuvieras allí ese día.
+- La Luna en la planificación: fase y horas sobre el horizonte en el resumen y el plan de la noche, y un semáforo (🟢 no molesta, 🟡 en parte, 🔴 desaconsejada) en «Esta noche», con filtro, y en el horario de la cola.
+- Mover el telescopio a mano desde la pestaña de conexión, con pasos de 0,5° a 15°.
+- Catálogo Caldwell: filtro propio en el buscador y en «Esta noche», y búsqueda por «C 20» o «Caldwell 20».
+- Corregido: los desplegables (como el del catálogo) se abrían más estrechos que su texto y el texto se cortaba.
+- Corregido: si esta noche no caben todas las tomas de un objetivo, los contadores (pestaña Captura, cola, tele y móvil) cuentan sobre las que sí caben («3 de 45», no «3 de 100») y el tiempo que falta es el de esas.
+- DeepSkySuite: botón Mensajes para enviar al autor errores, sugerencias o comentarios (con capturas o archivos); cuando se publica el arreglo, la app enseña la respuesta.
+- DeepSkySuite: generación de estadísticas de uso anónimas para la mejora de la aplicación (se pueden desactivar en Ajustes).
+
 2026-10-23
 - Apilado en directo en la tele: la app busca los Chromecast y Google TV de la red y les envía el apilado con el estado de la sesión (progreso, tiempo que falta, descartes y nitidez), actualizado con cada toma.
 
