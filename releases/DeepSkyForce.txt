@@ -1,6 +1,20 @@
 DeepSkyForce - Novedades
 ========================
 
+25/10/2026
+- Versión beta pública: cada versión funciona 90 días y, desde una semana antes de caducar, avisa al abrirla para que la actualices desde Acerca de.
+- Cámaras monocromas: nueva opción «Mono» en «Patrón de Bayer» de Ajustes (y detección automática cuando la cabecera FITS lo indica); apila un solo filtro (luminancia, Hα…) en blanco y negro, sin damero ni color falso.
+- La primera vez que se abre, un aviso explica qué estadísticas anónimas se envían (nunca nombres, carpetas ni imágenes) y permite desactivarlas; no se envía nada antes.
+- La aplicación guarda un registro de diagnóstico: Acerca de abre su carpeta, Mensajes adjunta el de hoy y, si surge un error inesperado, «Enviar informe» abre el mensaje ya preparado.
+- Tras el primer y el tercer apilado, la app pregunta qué tal ha ido (Mensajes o el grupo de Telegram, con «No volver a preguntar»).
+- Acerca de: correo de contacto, grupo de Telegram, política de privacidad, licencias de terceros y aviso de versión beta sin garantía.
+- Mensajes más claros: se dice por qué no se pudo leer un archivo, por qué se descartan las imágenes RGB ya apiladas y qué formatos se admiten (.fit / .fits) cuando no se encuentra ninguna imagen.
+- Antes de un apilado grande se comprueba que hay espacio libre en el disco y, si no lo hay, se avisa al momento en lugar de fallar a mitad.
+- Corregido: en carpetas de un NAS o disco de red no se ofrecía reutilizar el análisis anterior y se volvían a analizar todas las imágenes.
+- Corregido: en los mosaicos, las teselas con pocas tomas y cielo más claro (amanecer, Luna, farolas) ya no apagan el objeto en el resto de la imagen; el procesado se ajusta a las teselas principales.
+- Corregido: al abrir un FITS guardado por DeepSkyForce ya no se vuelve a corregir el fondo, que en los mosaicos borraba parte de la nebulosa; los mosaicos guardados conservan además su procesado según las teselas principales.
+- Las actualizaciones automáticas comprueban la firma digital de DeepSkySuite: solo se instala una versión publicada por nosotros, aunque alguien manipulara la página de descargas.
+
 24/10/2026
 - Cabecera de lado a lado con los botones Ajustes, Mensajes, Acerca de y Manual con su nombre, igual que en DeepSkyCopilot.
 - Actualizar con un clic: al abrir la aplicación, si hay una versión nueva, «Actualizar ahora» la descarga, la comprueba, la instala y vuelve a abrirla.

@@ -1,6 +1,18 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-25
+- Versión beta pública: cada versión funciona 90 días y, desde una semana antes de caducar, avisa al abrirla para que la actualices desde Acerca de.
+- Corregido: si el telescopio deja de seguir un rato y se sale del encuadre, la toma se aparta (no entra en el apilado en directo) y se vuelve a centrar enseguida; esas tomas ya no se confunden con nubes.
+- Simplificados varios textos de la aplicación y de la página del móvil para que sea más fácil para quien empieza en la astrofotografía.
+- Asistente de inicio (instalaciones nuevas): aviso de beta y página de estadísticas anónimas que explica qué se envía, con casilla para desactivarlas; no se envía nada antes de verla. Las estadísticas incluyen el modelo de telescopio que informa su driver, sin números de serie ni el nombre que le hayas puesto.
+- Mensajes: adjunta el registro de la app (se puede desmarcar), enlaza el grupo de Telegram y, tras la primera y la tercera noche con fotos, pregunta qué tal ha ido.
+- El aviso de «Error inesperado» no se repite si el error vuelve a pasar y tiene «Enviar informe», que lo manda en Mensajes con el registro.
+- Acerca de: correo de contacto, Telegram, política de privacidad, aviso de beta sin garantía y licencias de terceros.
+- Más seguridad para el telescopio: si la montura no acepta la orden de parar se reintenta y, si sigue sin responder, se aborta el movimiento; «Apuntar y centrar» (ahora también desde el móvil) no apunta bajo el horizonte ni a menos de 15° del Sol, y «Aparcar al terminar» viene activado en las instalaciones nuevas.
+- Las actualizaciones automáticas comprueban la firma digital de DeepSkySuite: solo se instala una versión publicada por nosotros, aunque alguien manipulara la página de descargas.
+- Cada lugar tiene su zona horaria (automática según sus coordenadas o elegida a mano): las horas de la noche, «desde/hasta» y la previsión de la cola van en la hora del lugar, así que un plan hecho desde casa para otro sitio (p. ej. Canarias) se cumple allí a la hora prevista aunque el ordenador esté en otra zona. En una instalación nueva, la ubicación inicial sale de la zona horaria del ordenador y el GPS del telescopio la ajusta al conectar.
+
 2026-10-24
 - Interfaz más fácil: nueva pestaña Inicio con la noche de un vistazo (lugar, Luna, telescopio y cola) y un botón grande «Empezar la noche» que dice qué falta; pestañas renombradas (Telescopio, Objetivo, Captura, En directo) y textos sin tecnicismos.
 - Asistente de inicio la primera vez (y tras esta actualización): lugar y cielo visible, ASTAP, si usas cuña ecuatorial y app sencilla o avanzada; se puede volver a ver desde Ajustes.
