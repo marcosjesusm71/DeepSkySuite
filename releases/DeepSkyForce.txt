@@ -1,6 +1,19 @@
 DeepSkyForce - Novedades
 ========================
 
+27/10/2026
+- Al actualizar desde una de las dos aplicaciones, la otra se pone al día a la vez con la misma descarga si está en la misma carpeta y cerrada.
+- Nueva pestaña «Zonas»: con «Nueva zona» marcas círculos sobre la imagen (también uno dentro de otro) y ajustas en cada uno brillo, contraste y saturación con transición suave; bajar el brillo templa un núcleo quemado sin apagar lo tenue y el contraste realza el polvo oscuro sin tocar el cielo ni las estrellas. La pestaña aparece sólo con el procesado inteligente activado.
+- «Ver original» (botón o barra espaciadora) mantiene el zoom y la posición, y tras girar o recortar compara con la original girada y recortada igual; «Restaurar original» del recorte sigue volviendo a la primera.
+- Cada apilado nuevo o FITS abierto empieza sin procesado inteligente; se activa con su casilla cuando se quiera.
+- Se reconoce la nebulosa del Pelícano (IC 5070) como nebulosa.
+- Corregido: tras mover un ajuste con el procesado inteligente (o retocando un FITS ya estirado), el JPG y el TIFF guardados no coincidían con lo que se veía en pantalla.
+- Corregido: el campo «Fuerza denoise» de «Ajuste de imagen» se veía aplastado y cortado en macOS.
+- Corregido: con el procesado inteligente, los ajustes de una galaxia o un cúmulo ya no se llaman «de la nebulosa» (p. ej. «Realce de la galaxia»).
+- Corregido: la paleta Hubble ya no vuelve azuladas ni más brillantes las estrellas ni el resplandor que las rodea; sólo cambia el color de la nebulosa.
+- Corregido: el procesado inteligente en nebulosas muy brillantes como M42 ya no ilumina en exceso la zona tenue ni deja la nebulosa como una nube plana y descolorida.
+- Corregido: en mosaicos con muy pocas tomas por panel, un panel en el que una toma no se alineaba se quedaba vacío y se perdía del mosaico; ahora se reintenta su alineado y, si aun así queda una sola toma, se usa.
+
 25/10/2026
 - Versión beta pública: cada versión funciona 90 días y, desde una semana antes de caducar, avisa al abrirla para que la actualices desde Acerca de.
 - Cámaras monocromas: nueva opción «Mono» en «Patrón de Bayer» de Ajustes (y detección automática cuando la cabecera FITS lo indica); apila un solo filtro (luminancia, Hα…) en blanco y negro, sin damero ni color falso.
