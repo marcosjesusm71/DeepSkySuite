@@ -1,6 +1,10 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-28
+- Alineación polar: nueva casilla «Empezar el ajuste en directo al terminar de medir» (activada): si la medición sale bien, el ajuste en directo arranca solo para mover la cuña sin pulsar nada más; si falla, no se arranca.
+- Mensajes: el autor puede escribirte sin cerrar tu mensaje (por ejemplo, para pedirte un dato); la aplicación te lo enseña al abrirla y puedes contestarle desde ahí, con archivos adjuntos si hace falta.
+
 2026-10-27
 - Al actualizar desde una de las dos aplicaciones, la otra se pone al día a la vez con la misma descarga si está en la misma carpeta y cerrada.
 

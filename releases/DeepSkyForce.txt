@@ -1,6 +1,15 @@
 DeepSkyForce - Novedades
 ========================
 
+28/10/2026
+- Pestaña «Zonas»: nueva casilla «Mostrar guías» para ocultar los círculos y las cruces y ver el efecto sobre la imagen sin cambiar de pestaña; las zonas se siguen aplicando.
+- El botón «↺ Auto local» del ajuste de imagen pasa a llamarse «↺ Restaurar»: deshace las pruebas con los controles y vuelve a los ajustes automáticos que calculó el programa.
+- Pestaña «Rotación y recorte»: dos botones nuevos para voltear la imagen en horizontal y en vertical, por si un FITS se ve en espejo.
+- Mensajes: el autor puede escribirte sin cerrar tu mensaje (por ejemplo, para pedirte un dato); la aplicación te lo enseña al abrirla y puedes contestarle desde ahí, con archivos adjuntos si hace falta.
+- Corregido: los FITS guardados con Siril se veían en espejo al importarlos; ahora se detecta cómo está guardada la imagen y se muestra como el cielo, conservando su astrometría. Los FITS exportados indican su orientación para que Siril y otros programas los muestren bien.
+- Corregido: al volver a analizar la misma sesión se descartaban cada vez más imágenes aunque no hubiera cambiado nada; ahora las ya descartadas cuentan en la comparación y repetir el análisis da el mismo resultado.
+- Corregido: un mosaico encuadrado en vertical con paneles de una sola toma podía salir recortado en horizontal; el recorte automático respeta ahora la orientación del mosaico.
+
 27/10/2026
 - Al actualizar desde una de las dos aplicaciones, la otra se pone al día a la vez con la misma descarga si está en la misma carpeta y cerrada.
 - Nueva pestaña «Zonas»: con «Nueva zona» marcas círculos sobre la imagen (también uno dentro de otro) y ajustas en cada uno brillo, contraste y saturación con transición suave; bajar el brillo templa un núcleo quemado sin apagar lo tenue y el contraste realza el polvo oscuro sin tocar el cielo ni las estrellas. La pestaña aparece sólo con el procesado inteligente activado.
