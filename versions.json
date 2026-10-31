@@ -16,6 +16,21 @@
             "version": "2026.10.31"
           }
         }
+      },
+      "Windows": {
+        "zip": "DeepSkySuite-Windows-2026-10-31.zip",
+        "size": 242606676,
+        "sha256": "a7d21bb858fcf446cc73568f9f50f11f73a6054b1fa35e67dbb1d270f5bd3ae1",
+        "apps": {
+          "DeepSkyForce": {
+            "built_at": "2026-10-31T19:44:07+00:00",
+            "version": "2026.10.31"
+          },
+          "DeepSkyCopilot": {
+            "built_at": "2026-10-31T19:48:52+00:00",
+            "version": "2026.10.31"
+          }
+        }
       }
     },
     {
@@ -337,5 +352,5 @@
       }
     }
   ],
-  "signature": "3db482a1c423eb27c65968fec44b6f1ceb2dc7221be495454975e6ced3f5edbcedb4c3bbf27b013b39474cc19ac3873289396771b694f8294bf20e7dada0c30c"
+  "signature": "1a1db25eba10dbbee8e9a9256b628d71a7d0e87b183ecf9e235b144bacc1728e9475457abd3ab7eed5653070755aa1afe2d2497e4069cab61390ecdbe887230a"
 }
