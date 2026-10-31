@@ -1,6 +1,15 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-10-31
+- La foto de encuadre carga más rápido y no depende de un único servidor: se monta con las imágenes DSS2 en color de la ESA, la NASA o CSIRO, y el servidor de antes (CDS, Estrasburgo) queda de respaldo.
+- Alineación polar más automática: giros más cortos (las tres fotos en un trozo de cielo más pequeño y, si eliges tú el punto, la del centro en él y las otras a cada lado), se aleja de la Luna, evita los puntos sin estrellas de tu escaneo del cielo (vuelve a aplicar un escaneo antiguo para aprovecharlo), recuerda durante la noche las zonas donde no se veían estrellas y empieza donde ya funcionó; si una foto no sale repite con más exposición, prueba al otro lado o pasa a otra zona sin que tengas que hacer nada.
+- Alineación polar: si el eje de la montura está muy lejos del polo, en vez de pedirte ajustes imposibles de la cuña te dice qué revisar del montaje (modo ecuatorial, inclinación, orientación al norte).
+- Ajuste en directo más ágil: mientras mueves la cuña el error se actualiza con cada foto corta, sin esperar a reconocer el cielo (valor aproximado) y, cuando paras, se confirma solo con una foto precisa.
+- Corregido: un doble clic en «Ajuste en directo» lo paraba nada más empezar.
+- Corregido: con el filtro LP puesto, el centrado durante la sesión no encontraba estrellas en campos pobres y el objetivo se iba saliendo del encuadre; ahora quita el LP solo para la foto de centrado (usa el UV/IR y luego vuelve a ponerlo), alarga la foto si hace falta, vuelve a centrar en cuanto el encuadre se desvía 2′ y, si falla, no lo reintenta en cada toma.
+- Corregido: los pequeños movimientos entre tomas (dithering) se iban sumando y desplazaban el encuadre; ahora giran alrededor del centro y se ajustan a lo que se mueve de verdad el telescopio.
+
 2026-10-28
 - Alineación polar: nueva casilla «Empezar el ajuste en directo al terminar de medir» (activada): si la medición sale bien, el ajuste en directo arranca solo para mover la cuña sin pulsar nada más; si falla, no se arranca.
 - Mensajes: el autor puede escribirte sin cerrar tu mensaje (por ejemplo, para pedirte un dato); la aplicación te lo enseña al abrirla y puedes contestarle desde ahí, con archivos adjuntos si hace falta.

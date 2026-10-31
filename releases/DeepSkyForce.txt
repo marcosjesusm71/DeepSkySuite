@@ -1,6 +1,10 @@
 DeepSkyForce - Novedades
 ========================
 
+31/10/2026
+- Sesiones sin darks: los píxeles calientes fijos del sensor se detectan en las propias tomas y se corrigen antes de apilar: el fondo sale con algo menos de vetas y de grano de color.
+- Los FITS exportados conservan los datos de captura (fecha, telescopio, cámara, filtro, ganancia, temperatura, focal, tamaño de píxel y lugar) para Siril, PixInsight o ASTAP.
+
 28/10/2026
 - Pestaña «Zonas»: nueva casilla «Mostrar guías» para ocultar los círculos y las cruces y ver el efecto sobre la imagen sin cambiar de pestaña; las zonas se siguen aplicando.
 - El botón «↺ Auto local» del ajuste de imagen pasa a llamarse «↺ Restaurar»: deshace las pruebas con los controles y vuelve a los ajustes automáticos que calculó el programa.
