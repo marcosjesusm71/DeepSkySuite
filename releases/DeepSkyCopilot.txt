@@ -2,6 +2,7 @@ DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
 2026-11-02
+- Corregido: en Windows la actualización automática cerraba la aplicación y no instalaba la nueva versión.
 - La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual y la página del móvil también están en los dos idiomas.
 - Pestaña «2. Objetivo» más sencilla: el buscador (que también acepta coordenadas) y la tabla de la noche arriba, una ficha con cuándo se ve el objeto esa noche, y los resultados de la búsqueda en una lista que se cierra al elegir.
 - Los objetivos se fotografían durante su horario: ya no se pide el número de tomas ni la altura mínima (la marca tu cielo visible); la app te dice cuántas tomas salen según el plan, y un objetivo sin hora de fin sigue hasta que le toca a otro con hora de inicio.

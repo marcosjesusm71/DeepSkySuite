@@ -2,6 +2,7 @@ DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
 2026-11-02
+- Fixed: on Windows the automatic update closed the app without installing the new version.
 - The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual and the phone page are in both languages too.
 - Simpler «2. Target» tab: the search box (which also accepts coordinates) and tonight's table at the top, a card showing when the object is visible that night, and the search results in a list that closes once you pick one.
 - Targets are captured during their time window: you no longer enter the number of frames or the minimum altitude (your visible sky sets it); the app tells you how many frames the plan allows, and a target with no end time keeps going until another one with a start time is due.

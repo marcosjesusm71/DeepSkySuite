@@ -2,6 +2,7 @@ DeepSkyForce - What's new
 =========================
 
 02/11/2026
+- Fixed: on Windows the automatic update closed the app without installing the new version.
 - The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual is in both languages too.
 - DeepSkyCopilot can ask DeepSkyForce to stack the night when it ends, without opening the window and with your settings (quality, rejected frames, darks): it leaves the linear FITS and a JPG thumbnail of each target in the «Stacks» folder.
 - «Zones» tab: new colour controls in each zone. Red, Green and Blue change the hue without changing the brightness; Hα and OIII enhance (or dim) only the red or only the cyan nebula, also with the Hubble palette. Sky without signal is not tinted and stars are not touched.

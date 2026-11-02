@@ -2,6 +2,7 @@ DeepSkyForce - Novedades
 ========================
 
 02/11/2026
+- Corregido: en Windows la actualización automática cerraba la aplicación y no instalaba la nueva versión.
 - La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual también está en los dos idiomas.
 - DeepSkyCopilot puede pedir a DeepSkyForce que apile la noche al terminar, sin abrir la ventana y con tus ajustes (calidad, descartadas, darks): deja el FITS lineal y una miniatura JPG de cada objetivo en la carpeta «Stacks».
 - Pestaña «Zonas»: nuevos controles de color en cada zona. Rojo, Verde y Azul cambian el tono sin cambiar el brillo; Hα y OIII realzan (o apagan) sólo la nebulosa roja o sólo la cian, también con la paleta Hubble. El cielo sin señal no se tiñe y las estrellas no se tocan.
