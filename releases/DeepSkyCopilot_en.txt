@@ -1,0 +1,96 @@
+DeepSkyCopilot - Changelog
+(changes by published release; most recent first)
+
+2026-11-02
+- The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual and the phone page are in both languages too.
+- Simpler «2. Target» tab: the search box (which also accepts coordinates) and tonight's table at the top, a card showing when the object is visible that night, and the search results in a list that closes once you pick one.
+- Targets are captured during their time window: you no longer enter the number of frames or the minimum altitude (your visible sky sets it); the app tells you how many frames the plan allows, and a target with no end time keeps going until another one with a start time is due.
+- «Tonight»: new «Only what fits in the plan» checkbox, which keeps only the objects with a free slot in the queue and shows the times of that slot.
+- Polar alignment: the result is rated according to the kind of exposures: under 2′ excellent, up to 5′ good (exposures up to 60 s), up to 60′ fine for exposures under 30 s (in green); above that, «Needs adjusting».
+- Automatic stacking with DeepSkyForce (option in Settings): when the night ends, DeepSkyForce stacks each captured target in the background and leaves the linear FITS ready for editing and a JPG thumbnail together in the «Stacks» folder.
+- Polar alignment: the live adjustment responds much sooner. It uses 0.5 s frames with higher gain and recognizes each one at once: as soon as you stop moving the wedge you see the exact value, without waiting for a longer frame.
+- Fixed: if the sky was misidentified while centring the target, the telescope could end up pointing at a wall or a balcony, keep those frames as good and then take it for clouds (and change the telescope's saved focal length). Impossible positions are now discarded (also those far outside your visible sky), a lit surface no longer counts as stars and, if it points at an obstacle, it warns you and leaves the target for later without waiting for it to «clear».
+- Fixed: if the telescope camera disconnected while the mount was still connected, the photo never arrived. It now reconnects by itself and retakes the photo, with a note in the log.
+- Fixed: the Seestar rejected photos with «not supported» when it was left parked or not tracking. It is now unparked and tracking is restarted before retrying.
+
+2026-10-31
+- The framing photo loads faster and no longer depends on a single server: it is built from ESA, NASA or CSIRO colour DSS2 images, with the previous server (CDS, Strasbourg) as backup.
+- More automatic polar alignment: shorter rotations (the three photos in a smaller patch of sky and, if you pick the point, the middle one on it and the others on each side), it keeps away from the Moon, avoids the starless spots of your sky scan (re-apply an old scan to use it), remembers during the night the areas where no stars were seen and starts where it already worked; if a photo fails it retries with a longer exposure, tries the other side or moves to another area without you doing anything.
+- Polar alignment: if the mount axis is very far from the pole, instead of asking for impossible wedge adjustments it tells you what to check in the setup (equatorial mode, tilt, north orientation).
+- Faster live adjustment: while you move the wedge the error updates with every short photo, without waiting for the sky to be identified (approximate value), and when you stop it is confirmed by itself with a precise photo.
+- Fixed: double-clicking «Live adjustment» stopped it right after starting.
+- Fixed: with the LP filter in place, centring during the session found no stars in sparse fields and the target drifted out of the frame; it now removes the LP only for the centring photo (uses UV/IR and then puts it back), lengthens the photo if needed, re-centres as soon as the framing drifts 2′ and, if it fails, does not retry on every frame.
+- Fixed: the small moves between frames (dithering) added up and shifted the framing; they now circle around the centre and adapt to how much the telescope really moves.
+
+2026-10-28
+- Polar alignment: new «Start the live adjustment after measuring» checkbox (on): if the measurement succeeds, the live adjustment starts by itself so you can move the wedge without pressing anything else; if it fails, it does not start.
+- Messages: the author can write to you without closing your message (for example, to ask for some detail); the app shows it when you open it and you can reply from there, with attachments if needed.
+
+2026-10-27
+- When updating from one of the two apps, the other one is updated at the same time with the same download if it is in the same folder and closed.
+
+2026-10-25
+- Public beta: each version works for 90 days and, from one week before it expires, warns you when you open it so you can update it from About.
+- Fixed: if the telescope stops tracking for a while and drifts out of the frame, the frame is set aside (it does not go into the live stack) and the target is re-centred right away; those frames are no longer mistaken for clouds.
+- Several texts in the app and on the phone page simplified to make it easier for astrophotography beginners.
+- Start wizard (new installs): beta notice and an anonymous statistics page that explains what is sent, with a checkbox to turn them off; nothing is sent before you see it. Statistics include the telescope model reported by its driver, without serial numbers or the name you gave it.
+- Messages: attaches the app log (can be unticked), links the Telegram group and, after the first and third night with photos, asks how it went.
+- The «Unexpected error» notice is not repeated if the error happens again and has «Send report», which sends it in Messages with the log.
+- About: contact email, Telegram, privacy policy, beta notice without warranty and third-party licences.
+- Safer for the telescope: if the mount does not accept the stop command it is retried and, if it still does not respond, the move is aborted; «Go to and centre» (now also from the phone) never points below the horizon or less than 15° from the Sun, and «Park when finished» is on in new installs.
+- Automatic updates check DeepSkySuite's digital signature: only a version published by us is installed, even if someone tampered with the download page.
+- Each place has its own time zone (automatic from its coordinates or chosen by hand): night times, «from/to» and the queue forecast use the place's time, so a plan made at home for another site (e.g. the Canary Islands) runs there at the planned time even if the computer is in another zone. In a new install, the initial location comes from the computer's time zone and the telescope's GPS adjusts it on connecting.
+
+2026-10-24
+- Easier interface: new Home tab with the night at a glance (place, Moon, telescope and queue) and a big «Start the night» button that tells you what is missing; renamed tabs (Telescope, Target, Capture, Live) and texts without jargon.
+- Start wizard the first time (and after this update): place and visible sky, ASTAP, whether you use an equatorial wedge and simple or advanced app; it can be shown again from Settings.
+- Simple (default) and advanced mode: simple mode hides gain, dithering, focus and centring intervals, number of darks, manual coordinates and exact rotation.
+- Telescope tab: telescope status as reported by its driver (mount, camera, optics, focuser, filter), a warning if its location or clock do not match, and polar alignment collapsed except in equatorial mode.
+- Target tab in three steps (choose, frame, add): search results appear in a list with when they are visible tonight, their maximum altitude and the Moon.
+- Live tab: the last photo and the live stack in the same tab, with Send to TV.
+- Clearer header: buttons with names, where the telescope is pointing («SE +45°») and place and night in a single button; the capture log is collapsed showing its last line.
+- DeepSkySuite: one-click update: when you open the app, if there is a new version, «Update now» downloads it, checks it, installs it and reopens the app.
+- The telescope's focal length is measured by itself with the first photo ASTAP solves and saved for that telescope: field of view, mosaics and centring are the real ones also on S30 Pro, S50, S50 Pro and others, even if the telescope does not report its focal length. In Advanced settings you can choose the Seestar model or type it in by hand (with the pixel size), and the telescope status tells where each value comes from.
+- Settings: «Show advanced options» is now the first checkbox and, in simple mode, only autofocus, centring, darks, parking, the folder and statistics are shown (the rest uses its recommended values).
+- Usage statistics: the approximate area is sent in more detail (about 10 km, the town, instead of 100 km); never the exact location.
+- Manual updated with the new interface, the wizard and updates.
+- Phone access (📱 button): a QR code opens a page on your phone with the current session, the last photo and the stack, polar alignment (with live adjustment), moving the telescope and taking test photos, the telescope status (and the dew heater), the night's queue and alerts with sound.
+- Plan another night (📅 button next to the place): choose a date and a saved place and the queue, the night plan, the search and «Tonight» are calculated as if you were there that day.
+- The Moon in planning: phase and hours above the horizon in the summary and the night plan, and a traffic light (🟢 no trouble, 🟡 partly, 🔴 not recommended) in «Tonight», with a filter, and in the queue schedule.
+- Move the telescope by hand from the connection tab, in steps from 0.5° to 15°.
+- Caldwell catalogue: its own filter in the search and in «Tonight», and search by «C 20» or «Caldwell 20».
+- Fixed: drop-down lists (like the catalogue one) opened narrower than their text and the text was cut off.
+- Fixed: if not all the frames of a target fit tonight, the counters (Capture tab, queue, TV and phone) count over the ones that do fit («3 of 45», not «3 of 100») and the remaining time is that of those.
+- DeepSkySuite: Messages button to send the author bugs, suggestions or comments (with screenshots or files); when the fix is published, the app shows the reply.
+- DeepSkySuite: anonymous usage statistics to improve the app (they can be turned off in Settings).
+
+2026-10-23
+- Live stack on the TV: the app finds the Chromecast and Google TV devices on the network and sends them the stack with the session status (progress, time left, rejects and sharpness), updated with every frame.
+
+2026-10-18
+- Fixed: a freshly powered-on Seestar no longer rejects GoTos («fail to operate»); you no longer need to close the arm with the Seestar app.
+
+2026-10-17
+- Live stack: a window with the full framing that fills in with every good frame, the panel the telescope is on and where the mount is pointing, with zoom and 1:1 (Viewer tab).
+- The frame counter shows the progress of the whole target and the frames left, not that of the current pass.
+- «About» has a button to open the log folder, to send the logs if there is a problem.
+- Manual updated.
+- When a new version is announced, the changes are shown by published release, without repeating what you already have.
+- If the Seestar rejects GoTos because it does not know where it is pointing («fail to operate», sometimes at power-on), the queue and «Go and centre» explain how to fix it: close the arm once with the Seestar app and open it from DeepSkyCopilot.
+- «Open arm» raises the arm all the way, without pressing «raise» separately.
+- The viewer keeps the zoom and position when a new photo arrives, to compare frames or with the live stack.
+- Fixed: some frames with clearly trailed stars were kept as good instead of being set aside as «rejected».
+- Fixed: a single-field target could be split into 4 almost identical photos (or a mosaic get an extra column) if the camera was rotated a few tenths of a degree.
+- Fixed: if a re-centring failed, the session stayed shifted; it is now retried on the following frames.
+
+2026-10-15
+- New DeepSkySuite version notice: shows what's new and downloads the zip to the Downloads folder (also when the trial version expires).
+- Note in the log when the telescope does not report its focal length, pixel or sensor size over Alpaca (the map field may not be the real one).
+- User manual added.
+
+2026-10-14
+- Changed how visible sky capture works.
+- Improved the style of table headers on Windows.
+- Version by build date and interface tweaks.
+- Fixed an internet connection problem on Windows.
+- Added an expiry date for the trial version.

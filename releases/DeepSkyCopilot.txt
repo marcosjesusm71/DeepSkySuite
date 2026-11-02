@@ -1,6 +1,18 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-02
+- La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual y la página del móvil también están en los dos idiomas.
+- Pestaña «2. Objetivo» más sencilla: el buscador (que también acepta coordenadas) y la tabla de la noche arriba, una ficha con cuándo se ve el objeto esa noche, y los resultados de la búsqueda en una lista que se cierra al elegir.
+- Los objetivos se fotografían durante su horario: ya no se pide el número de tomas ni la altura mínima (la marca tu cielo visible); la app te dice cuántas tomas salen según el plan, y un objetivo sin hora de fin sigue hasta que le toca a otro con hora de inicio.
+- «Esta noche»: nueva casilla «Solo lo que cabe en el plan», que deja solo los objetos con hueco libre en la cola y muestra las horas de ese hueco.
+- Alineación polar: el resultado se valora según el tipo de tomas: menos de 2′ excelente, hasta 5′ buena (tomas de hasta 60 s), hasta 60′ bien para tomas de menos de 30 s (en verde); por encima, «Hay que ajustar».
+- Apilado automático con DeepSkyForce (opción en Ajustes): al terminar la noche, DeepSkyForce apila en segundo plano cada objetivo fotografiado y deja juntos, en la carpeta «Stacks», el FITS lineal listo para retocar y una miniatura JPG.
+- Alineación polar: el ajuste en directo responde mucho antes. Usa fotos de 0,5 s con más ganancia y reconoce cada una al momento: en cuanto dejas de mover la cuña se ve el valor exacto, sin esperar a una foto más larga.
+- Corregido: si al centrar el objetivo se reconocía mal el cielo, el telescopio podía acabar apuntando a una pared o un balcón, guardar esas tomas como buenas y luego tomarlo por nubes (y cambiar la focal guardada del telescopio). Ahora se descartan las posiciones imposibles (también las que quedan muy fuera de tu cielo visible), una superficie iluminada no cuenta como estrellas y, si apunta a un obstáculo, lo avisa y deja el objetivo para más tarde sin esperar a que «se despeje».
+- Corregido: si la cámara del telescopio se desconectaba con la montura aún conectada, la foto no llegaba nunca. Ahora se vuelve a conectar sola y repite la foto, avisando en el registro.
+- Corregido: el Seestar rechazaba las fotos con «not supported» cuando se quedaba aparcado o sin seguimiento. Ahora se desaparca y reactiva el seguimiento antes de reintentar.
+
 2026-10-31
 - La foto de encuadre carga más rápido y no depende de un único servidor: se monta con las imágenes DSS2 en color de la ESA, la NASA o CSIRO, y el servidor de antes (CDS, Estrasburgo) queda de respaldo.
 - Alineación polar más automática: giros más cortos (las tres fotos en un trozo de cielo más pequeño y, si eliges tú el punto, la del centro en él y las otras a cada lado), se aleja de la Luna, evita los puntos sin estrellas de tu escaneo del cielo (vuelve a aplicar un escaneo antiguo para aprovecharlo), recuerda durante la noche las zonas donde no se veían estrellas y empieza donde ya funcionó; si una foto no sale repite con más exposición, prueba al otro lado o pasa a otra zona sin que tengas que hacer nada.

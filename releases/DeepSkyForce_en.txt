@@ -1,0 +1,107 @@
+DeepSkyForce - What's new
+=========================
+
+02/11/2026
+- The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual is in both languages too.
+- DeepSkyCopilot can ask DeepSkyForce to stack the night when it ends, without opening the window and with your settings (quality, rejected frames, darks): it leaves the linear FITS and a JPG thumbnail of each target in the «Stacks» folder.
+- «Zones» tab: new colour controls in each zone. Red, Green and Blue change the hue without changing the brightness; Hα and OIII enhance (or dim) only the red or only the cyan nebula, also with the Hubble palette. Sky without signal is not tinted and stars are not touched.
+- «Zones» tab: zones can be rotated ellipses to fit elongated galaxies and nebulae. On the selected zone, the coloured handle rotates and stretches it and the white one widens it.
+- «Zones» tab: with «Affects» a zone's adjustments are limited to its faint or bright part, for example to colour the outer arms without touching a burnt-out core.
+- Smart processing with a more striking finish without AI: renewed Hubble palette (golden orange and cyan, with the oxygen inside visible), smooth color, a boost that brightens the nebula without adding grain and three new controls: Structure, Star color and Gold ↔ Cyan.
+- More compact «Image adjustment» tab: two controls per row, the checkboxes on a single line and the signature and AI buttons next to the zoom, so the viewer has more room.
+- Fixed: with smart processing, lowering the noise reduction darkened the nebula until it almost disappeared; now it only changes how clean it looks, with the same brightness.
+- Fixed: with smart processing, smooth patches with curved or stair-stepped edges appeared around star clusters on bright nebulae (for example, M16), very visible with the Hubble palette; now the nebula keeps its texture.
+
+31/10/2026
+- Sessions without darks: the sensor's fixed hot pixels are detected in the frames themselves and corrected before stacking: the background comes out with a bit less streaking and colour noise.
+- Exported FITS keep the capture data (date, telescope, camera, filter, gain, temperature, focal length, pixel size and location) for Siril, PixInsight or ASTAP.
+
+28/10/2026
+- «Zones» tab: new «Show guides» checkbox to hide the circles and crosses and see the effect on the image without switching tabs; the zones are still applied.
+- The «↺ Local auto» button in image adjustment is renamed «↺ Reset»: it undoes your experiments with the controls and goes back to the automatic settings the program calculated.
+- «Rotation and crop» tab: two new buttons to flip the image horizontally and vertically, in case a FITS appears mirrored.
+- Messages: the author can write to you without closing your message (for example, to ask for some detail); the app shows it when you open it and you can reply from there, with attachments if needed.
+- Fixed: FITS files saved with Siril appeared mirrored when imported; how the image is stored is now detected and it is shown as the sky, keeping its astrometry. Exported FITS state their orientation so that Siril and other programs display them correctly.
+- Fixed: re-analysing the same session rejected more and more images each time even if nothing had changed; already rejected ones now count in the comparison and repeating the analysis gives the same result.
+- Fixed: a vertically framed mosaic with single-frame panels could come out cropped horizontally; automatic cropping now respects the mosaic's orientation.
+
+27/10/2026
+- When updating from one of the two apps, the other one is updated at the same time with the same download if it is in the same folder and closed.
+- New «Zones» tab: with «New zone» you mark circles on the image (also one inside another) and adjust brightness, contrast and saturation in each with a smooth transition; lowering the brightness tames a burnt-out core without dimming the faint parts, and contrast brings out dark dust without touching the sky or the stars. The tab appears only with smart processing on.
+- «View original» (button or space bar) keeps the zoom and position and, after rotating or cropping, compares with the original rotated and cropped the same way; «Restore original» in the crop still goes back to the first one.
+- Each new stack or opened FITS starts without smart processing; turn it on with its checkbox whenever you want.
+- The Pelican Nebula (IC 5070) is recognised as a nebula.
+- Fixed: after moving an adjustment with smart processing (or editing an already stretched FITS), the saved JPG and TIFF did not match what was shown on screen.
+- Fixed: the «Denoise strength» field in «Image adjustment» looked squashed and cut off on macOS.
+- Fixed: with smart processing, the adjustments for a galaxy or a cluster are no longer called «nebula» ones (e.g. «Galaxy enhancement»).
+- Fixed: the Hubble palette no longer makes stars and the glow around them bluish or brighter; it only changes the colour of the nebula.
+- Fixed: smart processing on very bright nebulae such as M42 no longer over-brightens the faint area or leaves the nebula as a flat, washed-out cloud.
+- Fixed: in mosaics with very few frames per panel, a panel where one frame did not align was left empty and lost from the mosaic; its alignment is now retried and, if only one frame is left, it is used.
+
+25/10/2026
+- Public beta: each version works for 90 days and, from one week before it expires, warns you when you open it so you can update it from About.
+- Monochrome cameras: new «Mono» option in «Bayer pattern» in Settings (and automatic detection when the FITS header says so); it stacks a single filter (luminance, Hα…) in black and white, without checkerboard or false colour.
+- The first time it opens, a notice explains which anonymous statistics are sent (never names, folders or images) and lets you turn them off; nothing is sent before that.
+- The app keeps a diagnostic log: About opens its folder, Messages attaches today's log and, if an unexpected error occurs, «Send report» opens the message already prepared.
+- After the first and third stack, the app asks how it went (Messages or the Telegram group, with «Don't ask again»).
+- About: contact email, Telegram group, privacy policy, third-party licences and a beta notice without warranty.
+- Clearer messages: it says why a file could not be read, why already stacked RGB images are discarded and which formats are supported (.fit / .fits) when no image is found.
+- Before a large stack it checks there is free disk space and, if not, warns you right away instead of failing halfway.
+- Fixed: in folders on a NAS or network drive, reusing the previous analysis was not offered and all images were analysed again.
+- Fixed: in mosaics, tiles with few frames and a brighter sky (dawn, Moon, street lights) no longer dim the object in the rest of the image; processing adapts to the main tiles.
+- Fixed: opening a FITS saved by DeepSkyForce no longer corrects the background again, which erased part of the nebula in mosaics; saved mosaics also keep their processing based on the main tiles.
+- Automatic updates check DeepSkySuite's digital signature: only a version published by us is installed, even if someone tampered with the download page.
+
+24/10/2026
+- Full-width header with the Settings, Messages, About and Manual buttons with their names, as in DeepSkyCopilot.
+- One-click update: when you open the app, if there is a new version, «Update now» downloads it, checks it, installs it and reopens it.
+- Messages button to send the author bugs, suggestions or comments (with screenshots or files); when the fix is published, the app shows the reply.
+
+23/10/2026
+- Manual updated with smart processing, the Hubble palette, the «AI optimised» profile and editing of already stretched FITS.
+- Fixed: smart processing on galaxies (e.g. M31) no longer flattens the disc or leaves black dots on its edge, and small satellite galaxies such as M32 no longer show a dark ring.
+- Turning off smart processing also unticks the Hubble palette, which only works with it.
+- Dragging in an already stretched FITS (for example, saved from Siril) is detected automatically, you are warned that editing is limited and it opens as is, without stretching it again; the image adjustments then fine-tune it (sky level, brightness, saturation, local contrast, noise and star reduction, Hubble palette) and «↺ Original» returns it to how it was opened.
+
+19/10/2026
+- Smart processing (no AI, on by default and can be turned off in «Image adjustment»): separates the stars, cleans the nebula and enhances it according to its own signal without brightening the sky; the brightness and enhancement sliders now only affect the nebula.
+- Hubble palette without AI (option in «Image adjustment»): tints the nebula gold (Hα) and cyan (OIII) keeping its structure and the star colours; meant for dual-band filters and disabled on galaxies.
+- More compact «Image adjustment»: AI slider optimisation is chosen in the stretch profile («AI optimised») instead of with a separate button.
+- Fixed: saturation at minimum makes the photo black and white, stars included.
+- Fixed: opening a JPG no longer shows the «Image adjustment» tab, whose controls had no effect on a finished image.
+
+17/10/2026
+- Darks: each frame is calibrated with the dark whose temperature is closest to its own (multi-night sessions with different temperatures), and the hot pixels they show are excluded from alignment.
+- When a new version is announced, the changes are shown by published release, without repeating what you already have.
+
+15/10/2026
+- New DeepSkySuite version notice: shows what's new and downloads the zip to the Downloads folder (also when the trial version expires).
+- Support for DWARF telescopes (Draco, DWARF 3, DWARF II) as well as Seestar.
+- The stack saved by the telescope itself (Seestar or DWARF) is no longer mixed with the individual frames.
+- Frames in DWARF's Solving_Failed folder, already discarded by the telescope, are ignored.
+- Darks from DWARF's CALI_FRAME library are used automatically, choosing those with the same gain and the closest temperature.
+- DWARF mosaics: each panel is recognised by its real position (shotsInfo.json) and they are no longer merged into a single field.
+- Mosaics with little overlap between panels: they are registered on the stars of the shared strip and the full image is obtained.
+- "failed_" frames that the DWARF itself marked as failed are ignored.
+- Fixed: with cameras with many hot pixels (DWARF 3) alignment locked onto them and the stars disappeared from the result.
+- Quality analysis ignores hot pixels when measuring stars (sessions will be re-analysed the first time).
+- The signature shows the real telescope (e.g. "17 x 300s - DWARF Draco" or "Seestar S50").
+- Live image adjustments: when you move the controls the change is shown instantly in a quick preview and, on release, the full-resolution image is calculated.
+- "Local auto" responds instantly: it shows a quick preview and calculates the full finish in the background; export waits for it to finish.
+- Star reduction is applied in the background and almost live; the first star separation no longer blocks the window.
+- Fixed: reducing stars after adjusting the controls by hand no longer undoes those adjustments.
+- Fixed: the stretch profile selector went back to "Custom" when choosing a profile.
+- Fixed: the values shown next to the controls were not updated when applying a profile.
+
+14/10/2026
+- AI options only appear if an OpenAI key is configured.
+- The version is identified by its build date and its validity date is shown.
+- Manual updated.
+- New app icon.
+
+13/10/2026
+- Improvements to the processing settings.
+- The native folder picker is back.
+
+12/10/2026
+- Improvements to image quality, settings and the manual.

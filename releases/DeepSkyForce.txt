@@ -1,6 +1,17 @@
 DeepSkyForce - Novedades
 ========================
 
+02/11/2026
+- La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual también está en los dos idiomas.
+- DeepSkyCopilot puede pedir a DeepSkyForce que apile la noche al terminar, sin abrir la ventana y con tus ajustes (calidad, descartadas, darks): deja el FITS lineal y una miniatura JPG de cada objetivo en la carpeta «Stacks».
+- Pestaña «Zonas»: nuevos controles de color en cada zona. Rojo, Verde y Azul cambian el tono sin cambiar el brillo; Hα y OIII realzan (o apagan) sólo la nebulosa roja o sólo la cian, también con la paleta Hubble. El cielo sin señal no se tiñe y las estrellas no se tocan.
+- Pestaña «Zonas»: las zonas pueden ser elipses giradas para ajustarse a galaxias y nebulosas alargadas. En la zona seleccionada, el punto de color la gira y alarga y el blanco la ensancha.
+- Pestaña «Zonas»: con «Afecta a» los ajustes de una zona se limitan a su parte débil o a su parte brillante, por ejemplo para dar color a las alas sin tocar un núcleo quemado.
+- Procesado inteligente con un acabado más vistoso sin IA: paleta Hubble renovada (naranja dorado y cian, con el oxígeno del interior visible), color sin manchas, realce que ilumina la nebulosa sin añadir grano y tres controles nuevos: Estructura, Color de estrellas y Dorado ↔ Cian.
+- Pestaña «Ajuste de imagen» más compacta: dos controles por línea, las casillas en una sola fila y los botones de firma e IA junto al zoom, para que el visor tenga más espacio.
+- Corregido: con el procesado inteligente, bajar la reducción de ruido oscurecía la nebulosa hasta casi hacerla desaparecer; ahora solo cambia lo limpia que sale, con el mismo brillo.
+- Corregido: con el procesado inteligente, alrededor de los cúmulos de estrellas sobre nebulosa brillante (por ejemplo, M16) aparecían parches lisos con bordes curvos o en escalera, muy visibles con la paleta Hubble; ahora la nebulosa conserva su textura.
+
 31/10/2026
 - Sesiones sin darks: los píxeles calientes fijos del sensor se detectan en las propias tomas y se corrigen antes de apilar: el fondo sale con algo menos de vetas y de grano de color.
 - Los FITS exportados conservan los datos de captura (fecha, telescopio, cámara, filtro, ganancia, temperatura, focal, tamaño de píxel y lugar) para Siril, PixInsight o ASTAP.
