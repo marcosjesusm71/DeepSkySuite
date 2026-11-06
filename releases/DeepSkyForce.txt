@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades
 ========================
 
+06/11/2026
+- Corregido: el procesado inteligente ya no pierde la definición de los filamentos finos y brillantes de nebulosas como el Velo (los trataba como estrellas y los difuminaba) y deja de dibujar puntos negros de ruido dentro de la nebulosa.
+
 02/11/2026
 - Corregido: en Windows la actualización automática cerraba la aplicación y no instalaba la nueva versión.
 - La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual también está en los dos idiomas.

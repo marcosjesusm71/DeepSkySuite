@@ -1,6 +1,15 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-06
+- Desde la página del móvil ya se puede empezar y parar la cola, elegir la zona de la alineación polar («Elegir zona…») y cambiar entre la vista simple y la de precisión; si la cuña no está alineada, avisa antes de empezar la cola.
+- Nueva opción «Apuntar al oeste al terminar» (si no aparcas): el telescopio queda mirando al oeste, lejos del Sol de la mañana, hasta que lo recojas.
+- Antes de empezar la cola con la cuña ecuatorial, si no se ha alineado o el último error pasa de 1°, la app avisa y deja elegir entre ir a alinear o continuar.
+- El acceso desde el móvil se recuerda: si lo dejaste activado al cerrar la aplicación, arranca solo la próxima vez.
+- Alineación polar más sencilla: por defecto muestra solo la desviación en grados (altura y azimut) con su flecha, en verde por debajo de 1° y en rojo por encima, como la app del Seestar; el botón «Ver modo precisión» enseña la diana, cuyas rayas valen siempre 20' (cuanto más lejos, más rayas, hasta 4°).
+- El ajuste en directo de la alineación polar se para solo si la cuña lleva 5 minutos sin moverse, y «Ejecutar la cola» / «Empezar la noche» ya no se quedan bloqueados con él en marcha: lo paran y empiezan.
+- Previsión de nubes al planificar: la tabla de la noche indica si habrá nubes en todo el tramo de cada objeto, en una parte o en ninguna (con un filtro para ocultar los nublados del todo); al elegir uno con nubes pregunta si llevar solo el tramo despejado, y la cola enseña el mismo icono en el plan de cada objetivo según las nubes de esa noche. Se puede desactivar en Ajustes.
+
 2026-11-02
 - Corregido: en Windows la actualización automática cerraba la aplicación y no instalaba la nueva versión.
 - La aplicación está disponible en español e inglés: en un ordenador en español se abre en español y, si no, pregunta el idioma la primera vez; se cambia en Ajustes → Idioma. El manual y la página del móvil también están en los dos idiomas.

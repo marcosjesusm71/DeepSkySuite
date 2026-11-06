@@ -1,6 +1,15 @@
 DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
+2026-11-06
+- From the phone page you can now start and stop the queue, choose the polar alignment area («Choose area…») and switch between the simple and precision views; if the wedge is not aligned, it warns before starting the queue.
+- New «Point west when finished» option (if you don't park): the telescope is left facing west, away from the morning Sun, until you collect it.
+- Before starting the queue with the equatorial wedge, if it hasn't been aligned or the last error is over 1°, the app warns you and lets you choose between going to align or continuing.
+- Phone access is remembered: if you left it on when closing the app, it starts by itself next time.
+- Simpler polar alignment: by default it shows only the deviation in degrees (altitude and azimuth) with an arrow, green below 1° and red above, like the Seestar app; the «Show precision mode» button shows the target, whose rings are always 20' (the farther away, the more rings, up to 4°).
+- The polar alignment live adjustment stops by itself if the wedge has not moved for 5 minutes, and «Run the queue» / «Start the night» are no longer blocked while it runs: they stop it and start.
+- Cloud forecast when planning: tonight's table shows whether each object's stretch will have clouds throughout, in part or not at all (with a filter to hide the fully cloudy ones); picking one with clouds asks whether to take only the clear stretch, and the queue shows the same icon in each target's plan according to that night's clouds. It can be turned off in Settings.
+
 2026-11-02
 - Fixed: on Windows the automatic update closed the app without installing the new version.
 - The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual and the phone page are in both languages too.

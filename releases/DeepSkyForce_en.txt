@@ -1,6 +1,9 @@
 DeepSkyForce - What's new
 =========================
 
+06/11/2026
+- Fixed: smart finish no longer loses the definition of thin, bright filaments in nebulae such as the Veil (it treated them as stars and blurred them) and no longer draws black noise specks inside the nebula.
+
 02/11/2026
 - Fixed: on Windows the automatic update closed the app without installing the new version.
 - The application is available in Spanish and English: on a Spanish computer it opens in Spanish and otherwise asks for the language the first time; change it in Settings → Language. The manual is in both languages too.
