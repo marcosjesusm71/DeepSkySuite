@@ -1,6 +1,9 @@
 DeepSkyForce - What's new
 =========================
 
+07/11/2026
+- Cleaner look, like DeepSkyCopilot: header with icons only (Settings, Messages and Help with the manual and About) and no tagline, tabs and Settings categories as buttons (the tiles tab only appears when there is something to choose), single-colour buttons and no emojis in texts.
+
 06/11/2026
 - Fixed: smart finish no longer loses the definition of thin, bright filaments in nebulae such as the Veil (it treated them as stars and blurred them) and no longer draws black noise specks inside the nebula.
 

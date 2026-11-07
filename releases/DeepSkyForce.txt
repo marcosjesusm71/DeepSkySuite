@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades
 ========================
 
+07/11/2026
+- Imagen más limpia, como DeepSkyCopilot: cabecera con solo iconos (Ajustes, Mensajes y Ayuda con el manual y Acerca de) y sin eslogan, pestañas y categorías de Ajustes como botones (la de teselas sólo aparece cuando hay algo que elegir), botones de un solo color y sin emojis en los textos.
+
 06/11/2026
 - Corregido: el procesado inteligente ya no pierde la definición de los filamentos finos y brillantes de nebulosas como el Velo (los trataba como estrellas y los difuminaba) y deja de dibujar puntos negros de ruido dentro de la nebulosa.
 
