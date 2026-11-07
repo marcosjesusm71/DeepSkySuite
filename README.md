@@ -2,7 +2,7 @@
 
 Descargas de **DeepSkyForce** (apilado y procesado de astrofotografía) y
 **DeepSkyCopilot** (copiloto de captura, alineación polar y control de telescopios Alpaca).
-Web: https://deepsky.macas.es
+Web: https://www.deepskysuite.com
 
 > **Beta abierta.** Cualquiera puede descargarla y usarla gratis. Lo que más ayuda es que la
 > pruebes en tus noches reales y nos cuentes qué falla y qué echas en falta.
@@ -60,7 +60,7 @@ Las apps no están firmadas por Apple ni Microsoft, así que el sistema avisa la
 ## Privacidad
 
 Las apps envían estadísticas anónimas de uso (se desactivan en Ajustes). Todos los detalles en
-https://deepsky.macas.es/privacidad
+https://www.deepskysuite.com/privacidad
 
 ## Novedades
 
