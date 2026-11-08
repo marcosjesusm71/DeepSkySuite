@@ -1,8 +1,19 @@
-# DeepSkySuite
+# DeepSkySuite · Software de astrofotografía para Seestar y DWARF
 
-Descargas de **DeepSkyForce** (apilado y procesado de astrofotografía) y
-**DeepSkyCopilot** (copiloto de captura, alineación polar y control de telescopios Alpaca).
-Web: https://www.deepskysuite.com
+**🌐 Web oficial: [www.deepskysuite.com](https://www.deepskysuite.com)** · [English](https://www.deepskysuite.com/en/) ·
+[Galería](https://www.deepskysuite.com/galeria) · [Manuales (PDF)](https://www.deepskysuite.com/manuales/DeepSkyCopilot-manual.pdf)
+
+Software gratuito de astrofotografía de cielo profundo para **smart telescopes** (ZWO Seestar S30 y S50, DWARF) en
+macOS y Windows. Dos aplicaciones que funcionan juntas o por separado:
+
+- **DeepSkyCopilot**: copiloto de captura, alineación polar y control de telescopios ASCOM Alpaca. Captura toda la
+  noche por ti.
+- **DeepSkyForce**: apilado y procesado de astrofotografía. Apila y procesa tus FITS en un clic.
+
+**English:** DeepSkySuite is free astrophotography software for smart telescopes (ZWO Seestar S30/S50, DWARF) on macOS
+and Windows. **DeepSkyCopilot** runs your night of capture (polar alignment, ASCOM Alpaca control) and
+**DeepSkyForce** stacks and processes your FITS files in one click. Website: https://www.deepskysuite.com/en/ ·
+Download: [latest release](../../releases/latest).
 
 > **Beta abierta.** Cualquiera puede descargarla y usarla gratis. Lo que más ayuda es que la
 > pruebes en tus noches reales y nos cuentes qué falla y qué echas en falta.
