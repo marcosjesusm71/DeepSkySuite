@@ -1,0 +1,16 @@
+DeepSkyCopilot - Novedades destacadas para la web
+(lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
+
+2026-11-07
+- **Elige tu objetivo en un mapa del cielo.** Muévete por el cielo como en un planetario, con fotos reales, y elige lo que quieres fotografiar con un clic. Ves el encuadre exacto antes de empezar.
+- **Sabe qué merece la pena cada noche.** Cada objeto recibe una nota de 0 a 100 según su altura, la Luna, el tiempo disponible y las nubes, y la lista se ordena de mejor a peor.
+- **El plan de la noche, casi hecho.** La app propone los mejores objetos de la noche y puede llenarla por ti, uno tras otro y sin solapes.
+
+2026-11-06
+- **Previsión de nubes al planificar.** Antes de elegir, la app te dice si estará despejado durante el tramo de cada objeto y te ofrece fotografiar solo el rato despejado.
+- **Controla la noche desde el móvil.** Empieza y para la cola y haz la alineación polar desde el navegador del móvil, sin llevar el ordenador junto al telescopio.
+- **Alineación polar más sencilla.** Una flecha y los grados de desviación, en verde cuando es menor de 1°, como en la app del Seestar.
+
+2026-11-02
+- **En español y en inglés.** La aplicación y su manual se abren en el idioma de tu ordenador.
+- **Apilado al terminar la noche.** Al acabar, DeepSkyCopilot pide a DeepSkyForce que apile cada objetivo y te deja el resultado listo en una carpeta.

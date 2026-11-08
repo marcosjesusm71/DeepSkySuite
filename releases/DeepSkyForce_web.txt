@@ -1,0 +1,7 @@
+DeepSkyForce - Novedades destacadas para la web
+(lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
+
+02/11/2026
+- **Retoca solo una parte de la imagen.** Con las zonas puedes dar color o realzar solo el rojo o el azul de una nebulosa en un área concreta, sin tocar el resto.
+- **Un acabado más vistoso, sin IA.** Nueva paleta Hubble en dorado y cian, colores sin manchas y más detalle en la nebulosa sin añadir grano.
+- **En español y en inglés.** La aplicación y su manual se abren en el idioma de tu ordenador.

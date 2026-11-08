@@ -1,0 +1,16 @@
+DeepSkyCopilot - Highlights for the website
+(what is worth highlighting in each published release, in plain language; most recent first)
+
+2026-11-07
+- **Pick your target on a sky map.** Move around the sky like in a planetarium, with real photos, and choose what to photograph with one click. You see the exact framing before you start.
+- **Know what is worth shooting each night.** Every object gets a score from 0 to 100 based on its altitude, the Moon, the time available and the clouds, and the list is sorted from best to worst.
+- **Tonight's plan, almost done for you.** The app suggests the best objects of the night and can fill the night for you, one after another with no overlaps.
+
+2026-11-06
+- **Cloud forecast while planning.** Before choosing, the app tells you whether the sky will be clear during each object's time span and offers to shoot only the clear stretch.
+- **Control the night from your phone.** Start and stop the queue and do the polar alignment from your phone's browser, without carrying the computer next to the telescope.
+- **Simpler polar alignment.** An arrow and the deviation in degrees, green when it is under 1°, like in the Seestar app.
+
+2026-11-02
+- **In English and Spanish.** The app and its manual open in your computer's language.
+- **Stacking when the night ends.** When it finishes, DeepSkyCopilot asks DeepSkyForce to stack each target and leaves the result ready in a folder.

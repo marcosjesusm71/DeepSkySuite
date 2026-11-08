@@ -1,0 +1,7 @@
+DeepSkyForce - Highlights for the website
+(what is worth highlighting in each published release, in plain language; most recent first)
+
+02/11/2026
+- **Retouch just part of the image.** With zones you can add colour or boost only the red or the blue of a nebula in a specific area, without touching the rest.
+- **A more striking finish, no AI.** A new Hubble palette in gold and cyan, colours without blotches and more detail in the nebula without adding grain.
+- **In English and Spanish.** The app and its manual open in your computer's language.
