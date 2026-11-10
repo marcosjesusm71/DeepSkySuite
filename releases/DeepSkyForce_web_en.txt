@@ -1,6 +1,9 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+10/11/2026
+- **Build on your earlier work.** If you already have a stacked image from a past night, even if you deleted the original frames or did not make it with this app, you can add it to the new session and fill gaps with new shots.
+
 02/11/2026
 - **Retouch just part of the image.** With zones you can add colour or boost only the red or the blue of a nebula in a specific area, without touching the rest.
 - **A more striking finish, no AI.** A new Hubble palette in gold and cyan, colours without blotches and more detail in the nebula without adding grain.

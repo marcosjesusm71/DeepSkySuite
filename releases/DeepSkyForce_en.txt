@@ -1,6 +1,10 @@
 DeepSkyForce - What's new
 =========================
 
+10/11/2026
+- Prior stack (Settings → Stacking, advanced option): adds to a session a linear, already stacked FITS, from Force or another program such as Siril, whose lights you no longer have; useful, for example, to fill gaps with new frames, even if they were taken with a different filter.
+- Fixed: an alignment retry could store a wrong registration in the folder that later runs reused, leaving tiles out of the mosaic; each registration now remembers the settings it was computed with.
+
 07/11/2026
 - Cleaner look, like DeepSkyCopilot: header with icons only (Settings, Messages and Help with the manual and About) and no tagline, tabs and Settings categories as buttons (the tiles tab only appears when there is something to choose), single-colour buttons and no emojis in texts.
 

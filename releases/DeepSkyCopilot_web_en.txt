@@ -1,6 +1,9 @@
 DeepSkyCopilot - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+2026-11-10
+- **Cleaner photos, night after night.** The app learns how your telescope responds and shifts each shot just enough to keep sensor defects from showing, without letting the framing slowly drift away.
+
 2026-11-07
 - **Pick your target on a sky map.** Move around the sky like in a planetarium, with real photos, and choose what to photograph with one click. You see the exact framing before you start.
 - **Know what is worth shooting each night.** Every object gets a score from 0 to 100 based on its altitude, the Moon, the time available and the clouds, and the list is sorted from best to worst.

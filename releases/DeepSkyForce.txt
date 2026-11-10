@@ -1,6 +1,10 @@
 DeepSkyForce - Novedades
 ========================
 
+10/11/2026
+- Apilado previo (Ajustes → Apilado, opción avanzada): suma a una sesión un FITS lineal ya apilado, de Force o de otro programa como Siril, cuyos lights ya no tienes; sirve, por ejemplo, para cubrir huecos con tomas nuevas, aunque hayan sido hechas con otro filtro.
+- Corregido: un reintento de alineado podía guardar en la carpeta un registro erróneo que las ejecuciones siguientes reutilizaban, dejando teselas fuera del mosaico; ahora cada registro recuerda con qué ajustes se calculó.
+
 07/11/2026
 - Imagen más limpia, como DeepSkyCopilot: cabecera con solo iconos (Ajustes, Mensajes y Ayuda con el manual y Acerca de) y sin eslogan, pestañas y categorías de Ajustes como botones (la de teselas sólo aparece cuando hay algo que elegir), botones de un solo color y sin emojis en los textos.
 

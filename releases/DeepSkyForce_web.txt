@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+10/11/2026
+- **Suma tu trabajo anterior.** Si ya tienes una imagen apilada de una noche pasada, aunque hayas borrado las tomas originales o no la hicieras con esta app, puedes añadirla a la nueva sesión y completar huecos con tomas nuevas.
+
 02/11/2026
 - **Retoca solo una parte de la imagen.** Con las zonas puedes dar color o realzar solo el rojo o el azul de una nebulosa en un área concreta, sin tocar el resto.
 - **Un acabado más vistoso, sin IA.** Nueva paleta Hubble en dorado y cian, colores sin manchas y más detalle en la nebulosa sin añadir grano.
