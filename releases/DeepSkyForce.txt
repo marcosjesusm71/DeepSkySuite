@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades
 ========================
 
+12/11/2026
+- Revisión manual de tomas (modo Paso a paso): tras analizar se abre una lista con cada toma estirada y la selección automática ya marcada; puedes incluir o descartar las que quieras, ver cada una en grande, ordenar por calidad y recuperar descartadas de análisis anteriores. Tu elección es la que se apila y se recuerda en los análisis siguientes; las descartadas se mueven a Discarded al aceptar o al apilar, no antes.
+
 10/11/2026
 - Apilado previo (Ajustes → Apilado, opción avanzada): suma a una sesión un FITS lineal ya apilado, de Force o de otro programa como Siril, cuyos lights ya no tienes; sirve, por ejemplo, para cubrir huecos con tomas nuevas, aunque hayan sido hechas con otro filtro.
 - Corregido: un reintento de alineado podía guardar en la carpeta un registro erróneo que las ejecuciones siguientes reutilizaban, dejando teselas fuera del mosaico; ahora cada registro recuerda con qué ajustes se calculó.

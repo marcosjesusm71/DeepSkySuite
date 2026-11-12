@@ -1,6 +1,9 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-12
+- El S50 Pro usa ganancia 200 por defecto (la de la app de ZWO) y, en el simulador, su sensor real (píxel de 2,9 µm), confirmados con una foto real.
+
 2026-11-10
 - Los ajustes (⚙️) se pueden abrir mientras se captura: carpeta, ganancia, focal y cielo visible quedan bloqueados (cambiarían la noche a medias), y darks, aparcado, apilado, autofocus, dithering y demás se pueden cambiar (los de cada objetivo, desde el siguiente). ASTAP solo se puede tocar si ya está instalado.
 - La ganancia del sensor sale por defecto de una tabla según el modelo (S30: 200, S50: 80), que se elige en Ajustes junto a la focal; antes, sin elegirla, el telescopio capturaba a ganancia 0. Al cambiar de modelo se pone la suya (con «Otra», la que informa el telescopio) y puedes escribir otra a mano.

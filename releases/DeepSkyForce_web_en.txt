@@ -1,6 +1,9 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+12/11/2026
+- **You decide which frames get stacked.** After the analysis you see every frame with the automatic selection already ticked, and can keep or drop any of them before stacking.
+
 10/11/2026
 - **Build on your earlier work.** If you already have a stacked image from a past night, even if you deleted the original frames or did not make it with this app, you can add it to the new session and fill gaps with new shots.
 

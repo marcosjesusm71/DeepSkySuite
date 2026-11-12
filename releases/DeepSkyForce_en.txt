@@ -1,6 +1,9 @@
 DeepSkyForce - What's new
 =========================
 
+12/11/2026
+- Manual frame review (Step by step mode): after analysing, a list opens with every frame stretched and the automatic selection already ticked; you can include or discard any of them, view each one large, sort by quality and restore frames discarded in earlier analyses. Your choice is what gets stacked and it is remembered in later analyses; discarded frames are moved to Discarded when you accept or stack, not before.
+
 10/11/2026
 - Prior stack (Settings → Stacking, advanced option): adds to a session a linear, already stacked FITS, from Force or another program such as Siril, whose lights you no longer have; useful, for example, to fill gaps with new frames, even if they were taken with a different filter.
 - Fixed: an alignment retry could store a wrong registration in the folder that later runs reused, leaving tiles out of the mosaic; each registration now remembers the settings it was computed with.

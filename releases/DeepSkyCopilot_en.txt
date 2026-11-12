@@ -1,6 +1,9 @@
 DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
+2026-11-12
+- The S50 Pro uses gain 200 by default (the one ZWO's app uses) and, in the simulator, its real sensor (2.9 µm pixel), confirmed with a real photo.
+
 2026-11-10
 - Settings (⚙️) can be opened while capturing: folder, gain, focal length and visible sky are locked (they would change the night halfway), while darks, parking, stacking, autofocus, dithering and the rest can be changed (per-target ones from the next target on). ASTAP can only be touched if it is already installed.
 - The sensor gain now defaults from a per-model table (S30: 200, S50: 80), picked in Settings together with the focal length; before, with none chosen, the telescope captured at gain 0. Changing the model sets its own (with «Other», the one the telescope reports) and you can type another by hand.
