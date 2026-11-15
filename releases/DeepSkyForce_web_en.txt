@@ -1,6 +1,9 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+15/11/2026
+- **Ask the app your questions.** Type in your own words how to do something and an assistant answers with what the manual says, with the exact page in case you want to read more.
+
 12/11/2026
 - **You decide which frames get stacked.** After the analysis you see every frame with the automatic selection already ticked, and can keep or drop any of them before stacking.
 

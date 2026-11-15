@@ -1,6 +1,9 @@
 DeepSkyCopilot - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+2026-11-15
+- **Pregunta tus dudas a la aplicación.** Escribe con tus palabras cómo se hace algo y un asistente te contesta con lo que dice el manual, con la página exacta por si quieres leer más.
+
 2026-11-10
 - **Fotos más limpias, noche tras noche.** La app aprende cómo responde tu telescopio y desplaza cada toma lo justo para que los defectos del sensor no queden marcados, sin que el encuadre se vaya alejando poco a poco.
 

@@ -1,6 +1,9 @@
 DeepSkyCopilot - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+2026-11-15
+- **Ask the app your questions.** Type in your own words how to do something and an assistant answers with what the manual says, with the exact page in case you want to read more.
+
 2026-11-10
 - **Cleaner photos, night after night.** The app learns how your telescope responds and shifts each shot just enough to keep sensor defects from showing, without letting the framing slowly drift away.
 

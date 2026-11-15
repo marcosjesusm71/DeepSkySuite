@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+15/11/2026
+- **Pregunta tus dudas a la aplicación.** Escribe con tus palabras cómo se hace algo y un asistente te contesta con lo que dice el manual, con la página exacta por si quieres leer más.
+
 12/11/2026
 - **Tú decides qué tomas se apilan.** Después del análisis ves cada toma, ya con la selección automática marcada, y puedes dejar dentro o quitar las que prefieras antes de apilar.
 

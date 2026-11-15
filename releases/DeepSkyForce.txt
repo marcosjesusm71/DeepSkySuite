@@ -1,6 +1,16 @@
 DeepSkyForce - Novedades
 ========================
 
+15/11/2026
+- Exportar FITS: un único desplegable con «FITS sin procesar» (apilado tal como sale, sin quitar fondo ni calibrar color, para que Siril o PixInsight lo estiren bien), «FITS fondo y color, sin estirar» y «FITS ya estirado»; recuerda la última elección.
+- Nuevo: «Buscar en el manual» (lupa de la cabecera o F1). Escribe tu duda con tus palabras y te enseña los apartados del manual que la responden, con su página, sin Internet y sin IA; el manual se abre dentro de la aplicación, en la página elegida, y si no encuentra nada puedes enviar la pregunta al autor.
+- Eliminado el perfil «Optimizado por IA» del desplegable de perfiles de estirado, que se elegía sin querer; el resto de opciones de IA siguen igual.
+- Nuevo: asistente (botón del robot de la cabecera o Mayús+F1). Le preguntas con tus palabras cómo se hace algo y te contesta con frases, sólo con lo que dice el manual, indicando las páginas para abrirlas con un clic; necesita Internet y, si no lo hay, ofrece el buscador del manual.
+- Girar una imagen recortada (también por el recorte automático del apilado) conserva su tamaño y rellena las esquinas con lo que la imagen sin recortar tiene ahí, en lugar de dejarlas en negro; varios giros seguidos ya no pierden nitidez.
+- «Auto-recortar bordes» hace ahora el mismo recorte automático del apilado y sólo está disponible cuando la imagen aún no lo tiene (por ejemplo, si se apiló con el recorte automático desactivado).
+- Corregido: en el procesado inteligente, las estrellas muy brillantes se veían como un disco plano con una estela ancha y una fila de color suelto en el borde; ahora tienen el núcleo limpio y las alas más recogidas; el halo, el anillo y los arcos de reflejo de las estrellas brillantes ya no se confunden con la nebulosa (no se amplifican al realzarla) y las nebulosas salen más luminosas por defecto.
+- Corregido: en la paleta Hubble, el paso de dorado a azul ya no se ve cortado ni con recortes irregulares al mover el reparto, ni con los controles Hα y OIII de las zonas; las transiciones son suaves.
+
 12/11/2026
 - Revisión manual de tomas (modo Paso a paso): tras analizar se abre una lista con cada toma estirada y la selección automática ya marcada; puedes incluir o descartar las que quieras, ver cada una en grande, ordenar por calidad y recuperar descartadas de análisis anteriores. Tu elección es la que se apila y se recuerda en los análisis siguientes; las descartadas se mueven a Discarded al aceptar o al apilar, no antes.
 

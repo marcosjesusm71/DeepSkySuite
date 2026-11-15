@@ -1,6 +1,13 @@
 DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
+2026-11-15
+- New: manual assistant (robot button in the header or Shift+F1). Ask in your own words how to do something and it answers in sentences, only with what the manual says, with the pages to open them in one click; it needs Internet and, without it, offers the manual search.
+- New in Settings → General: save captures in one folder per catalogue (Messier, NGC, IC...) and/or add the object name to its folder. If a folder starting with the object's identifier already exists (even if you renamed it), that one is used. Nothing already saved is moved. «You have» also counts the files in your folder (even if Copilot did not make them), remembers what it counted to open fast, and can be recounted from Settings.
+- On startup the app checks that the capture folder exists (e.g. a network folder when away from home): if it is missing it warns you and takes you to Settings, and meanwhile it will not let you connect to the telescope. «You have» is counted in the background the first time each day and when you change folder or finish the night; meanwhile it shows the last count.
+- New: «Search the manual» (magnifier in the header or F1). Type your question in your own words and it shows the manual sections that answer it, with their page (and opens the manual right there, in a viewer inside the app), with no Internet and without making anything up; if nothing is clear you can send the question to the author.
+- New: automatic dew heater. If the forecast shows humidity while you capture a target, the plan marks it with 💧 and the heater turns on by itself before that target starts (it can be turned off in Settings; it never turns it off).
+
 2026-11-12
 - The S50 Pro uses gain 200 by default (the one ZWO's app uses) and, in the simulator, its real sensor (2.9 µm pixel), confirmed with a real photo.
 
