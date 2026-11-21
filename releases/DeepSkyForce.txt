@@ -1,6 +1,13 @@
 DeepSkyForce - Novedades
 ========================
 
+21/11/2026
+- Quitado el control «Percentil alto» de los ajustes de imagen: no cambiaba el resultado en la práctica.
+- El visor suaviza la imagen al ampliarla: ya no se ven los píxeles como cuadrados al hacer zoom, solo en pantalla (las exportaciones no cambian).
+- Recorte: la selección se puede ajustar después de dibujarla, arrastrando el centro de cada lado o una esquina, sin tener que volver a seleccionar.
+- Procesado inteligente renovado: conserva el brillo y el color que ya daba a la nebulosa, pero el detalle fino y las estrellas salen ahora del dato real, como en el estirado clásico. Se acabó el aspecto «pintado»: los bordes estrechos (por ejemplo los pilares del Águila) no se funden, las estrellas llegan a blanco con su halo y su color, los cúmulos no se apagan y el cielo queda limpio. En un cúmulo de estrellas, donde no hay nebulosa que realzar, entrega el resultado clásico.
+- Corregido: al recortar una zona (por ejemplo los pilares del Águila) la imagen se volvía a estirar solo con ese trozo y quedaba oscura y con mal aspecto; ahora el acabado se calcula siempre con la imagen entera y solo se recorta el resultado, como si hubieras hecho zoom. Girar o voltear un recorte tampoco cambia ya su brillo ni su tamaño en pantalla, y las esquinas giradas se rellenan con la imagen de alrededor.
+
 15/11/2026
 - Exportar FITS: un único desplegable con «FITS sin procesar» (apilado tal como sale, sin quitar fondo ni calibrar color, para que Siril o PixInsight lo estiren bien), «FITS fondo y color, sin estirar» y «FITS ya estirado»; recuerda la última elección.
 - Nuevo: «Buscar en el manual» (lupa de la cabecera o F1). Escribe tu duda con tus palabras y te enseña los apartados del manual que la responden, con su página, sin Internet y sin IA; el manual se abre dentro de la aplicación, en la página elegida, y si no encuentra nada puedes enviar la pregunta al autor.

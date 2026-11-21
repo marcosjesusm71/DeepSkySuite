@@ -1,6 +1,9 @@
 DeepSkyCopilot - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+2026-11-21
+- **Mira cómo pasa el objeto por tu cielo.** Una gráfica te enseña a qué hora sube y baja lo que quieres fotografiar, y marca en rojo los ratos en que no lo verás desde tu casa.
+
 2026-11-15
 - **Pregunta tus dudas a la aplicación.** Escribe con tus palabras cómo se hace algo y un asistente te contesta con lo que dice el manual, con la página exacta por si quieres leer más.
 

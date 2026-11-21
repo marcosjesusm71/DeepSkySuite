@@ -1,6 +1,9 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+21/11/2026
+- **Striking nebulae without losing detail.** The smart finish brings out the nebula and darkens the sky, and now keeps stars and fine details just as they are: a far more striking image that still looks real.
+
 15/11/2026
 - **Ask the app your questions.** Type in your own words how to do something and an assistant answers with what the manual says, with the exact page in case you want to read more.
 

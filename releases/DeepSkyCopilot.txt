@@ -1,6 +1,9 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-21
+- Nuevo: gráfica del paso del objeto por la noche en la ficha del objetivo y al editar una línea de la cola (altura contra hora). Se ve en azul cuando está en tu cielo visible, en rojo cuando no (bajo tu horizonte o tapado) y en gris de día; al pasar el ratón por encima te dice la hora, la altura, hacia dónde mirar y dónde está la Luna.
+
 2026-11-15
 - Nuevo: asistente del manual (botón del robot de la cabecera o Mayús+F1). Le preguntas con tus palabras cómo se hace algo y te contesta con frases, solo con lo que dice el manual, indicando las páginas para abrirlas con un clic; necesita Internet y, si no lo hay, ofrece el buscador del manual.
 - Nuevo en Ajustes → General: guardar las capturas en una carpeta por catálogo (Messier, NGC, IC...) y/o añadir el nombre del objeto a su carpeta. Si ya existe una carpeta que empieza por el identificador del objeto (aunque la hayas renombrado), se usa esa. Lo ya guardado no se mueve. «Ya tienes» cuenta también tus archivos de la carpeta (aunque no los haya hecho Copilot), recuerda lo contado para abrir rápido y se puede recontar desde Ajustes.

@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+21/11/2026
+- **Nebulosas espectaculares sin perder detalle.** El procesado inteligente realza la nebulosa y oscurece el cielo, y ahora mantiene las estrellas y los detalles finos tal como son: una imagen mucho más vistosa que sigue pareciendo real.
+
 15/11/2026
 - **Pregunta tus dudas a la aplicación.** Escribe con tus palabras cómo se hace algo y un asistente te contesta con lo que dice el manual, con la página exacta por si quieres leer más.
 

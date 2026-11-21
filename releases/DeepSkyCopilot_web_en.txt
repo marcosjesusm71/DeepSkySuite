@@ -1,6 +1,9 @@
 DeepSkyCopilot - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+2026-11-21
+- **See how the object crosses your sky.** A chart shows when your target rises and sets, and marks in red the times you will not be able to see it from your home.
+
 2026-11-15
 - **Ask the app your questions.** Type in your own words how to do something and an assistant answers with what the manual says, with the exact page in case you want to read more.
 

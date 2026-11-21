@@ -1,6 +1,13 @@
 DeepSkyForce - What's new
 =========================
 
+21/11/2026
+- Removed the "High percentile" control from the image settings: it made no practical difference to the result.
+- The viewer smooths the image when zoomed in: pixels no longer show as squares, on screen only (exports are unchanged).
+- Crop: the selection can be adjusted after drawing it by dragging the middle of any side or a corner, with no need to select again.
+- Reworked smart finish: it keeps the brightness and colour it already gave the nebula, but fine detail and stars now come from the real data, as in the classic stretch. No more "painted" look: narrow edges (the Eagle's pillars, for example) no longer melt away, stars reach white with their halo and colour, clusters are not dimmed and the sky stays clean. On a star cluster, where there is no nebula to enhance, it delivers the classic result.
+- Fixed: cropping a region (for example the Eagle's pillars) used to re-stretch the image using only that piece, leaving it dark and poor-looking; the finish is now always computed from the whole image and only the result is cropped, as if you had zoomed in. Rotating or flipping a crop no longer changes its brightness or its size on screen either, and rotated corners are filled with the surrounding image.
+
 15/11/2026
 - FITS export: a single dropdown with "Unprocessed FITS" (stack as it comes out, no background removal or colour calibration, so Siril or PixInsight stretch it properly), "FITS background and colour, unstretched" and "Already stretched FITS"; it remembers your last choice.
 - New: "Search the manual" (magnifier in the header or F1). Type your question in your own words and it shows the manual sections that answer it, with their page, without Internet and without AI; the manual opens inside the app at the chosen page, and if nothing is found you can send the question to the author.

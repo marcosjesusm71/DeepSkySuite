@@ -1,6 +1,9 @@
 DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
+2026-11-21
+- New: chart of the object's path through the night on the target card and when editing a queue line (altitude against time). It is blue when it is in your visible sky, red when it is not (below your horizon or blocked) and grey in daylight; hover over it to see the time, altitude, where to look and where the Moon is.
+
 2026-11-15
 - New: manual assistant (robot button in the header or Shift+F1). Ask in your own words how to do something and it answers in sentences, only with what the manual says, with the pages to open them in one click; it needs Internet and, without it, offers the manual search.
 - New in Settings → General: save captures in one folder per catalogue (Messier, NGC, IC...) and/or add the object name to its folder. If a folder starting with the object's identifier already exists (even if you renamed it), that one is used. Nothing already saved is moved. «You have» also counts the files in your folder (even if Copilot did not make them), remembers what it counted to open fast, and can be recounted from Settings.
