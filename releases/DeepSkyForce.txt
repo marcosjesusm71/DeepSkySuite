@@ -1,6 +1,9 @@
 DeepSkyForce - Novedades
 ========================
 
+24/11/2026
+- La firma reconoce el Seestar S30 Plus y escribe su nombre completo.
+
 21/11/2026
 - Quitado el control «Percentil alto» de los ajustes de imagen: no cambiaba el resultado en la práctica.
 - El visor suaviza la imagen al ampliarla: ya no se ven los píxeles como cuadrados al hacer zoom, solo en pantalla (las exportaciones no cambian).

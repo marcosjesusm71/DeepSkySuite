@@ -1,6 +1,10 @@
 DeepSkyCopilot - Changelog
 (changes by published release; most recent first)
 
+2026-11-24
+- New: Seestar S30 Plus in the telescope list (its own focal length, sensor, field of view and gain 200).
+- Fixed: the Seestar S30 Pro simulator field of view was smaller than the real one (wrong sensor pixel size).
+
 2026-11-21
 - New: chart of the object's path through the night on the target card and when editing a queue line (altitude against time). It is blue when it is in your visible sky, red when it is not (below your horizon or blocked) and grey in daylight; hover over it to see the time, altitude, where to look and where the Moon is.
 

@@ -1,6 +1,9 @@
 DeepSkyForce - What's new
 =========================
 
+24/11/2026
+- The signature recognises the Seestar S30 Plus and writes its full name.
+
 21/11/2026
 - Removed the "High percentile" control from the image settings: it made no practical difference to the result.
 - The viewer smooths the image when zoomed in: pixels no longer show as squares, on screen only (exports are unchanged).

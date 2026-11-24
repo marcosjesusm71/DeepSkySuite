@@ -19,6 +19,24 @@
       }
     },
     {
+      "tag": "2026-11-24",
+      "MacOS": {
+        "zip": "DeepSkySuite-MacOS-2026-11-24.zip",
+        "size": 234744162,
+        "sha256": "8ff51a30f9c32838275b112d42f6484435496e3af6535e9cd4a2b8247a43ed38",
+        "apps": {
+          "DeepSkyForce": {
+            "built_at": "2026-11-24T18:57:17+00:00",
+            "version": "2026.11.24"
+          },
+          "DeepSkyCopilot": {
+            "built_at": "2026-11-24T18:58:36+00:00",
+            "version": "2026.11.24"
+          }
+        }
+      }
+    },
+    {
       "tag": "2026-11-21",
       "MacOS": {
         "zip": "DeepSkySuite-MacOS-2026-11-21.zip",
@@ -601,5 +619,5 @@
       }
     }
   ],
-  "signature": "f990bb26213ef4785bf5056c2c81ac204ce559cb51e3639474200e2dc4e4b4a992691a163284df5ceaf279e97f66fe23283f390f90a0b19edfa2e168b2f53f02"
+  "signature": "b6b80f9c13e8d464cedbb2515637296f1e387bf319f00e2cf32714434e4418113502fab32d7740ee6727c35ff769e17254b7e1f2c9368f6c7953cfd09d023c09"
 }

@@ -1,6 +1,10 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-24
+- Nuevo: Seestar S30 Plus en la lista de telescopios (focal, sensor, campo y ganancia 200 propios).
+- Corregido: el campo del simulador del Seestar S30 Pro salía más pequeño del real (píxel del sensor mal).
+
 2026-11-21
 - Nuevo: gráfica del paso del objeto por la noche en la ficha del objetivo y al editar una línea de la cola (altura contra hora). Se ve en azul cuando está en tu cielo visible, en rojo cuando no (bajo tu horizonte o tapado) y en gris de día; al pasar el ratón por encima te dice la hora, la altura, hacia dónde mirar y dónde está la Luna.
 
