@@ -1,6 +1,11 @@
 DeepSkyForce - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+26/11/2026
+- **Estrellas más finas y nítidas.** Tus imágenes ganan definición: las estrellas salen más pequeñas y se distinguen más estrellas débiles, sin tocar nada.
+- **Mira cómo se forma tu imagen.** Mientras se procesa, ves las fases del trabajo y la imagen apareciendo con cada fotograma que se suma.
+- **La paleta Hubble, a tu gusto.** Elige cuánto dorado y cuánto azul quieres, incluso zona por zona, y deja el resto de la imagen con su color natural.
+
 21/11/2026
 - **Nebulosas espectaculares sin perder detalle.** El procesado inteligente realza la nebulosa y oscurece el cielo, y ahora mantiene las estrellas y los detalles finos tal como son: una imagen mucho más vistosa que sigue pareciendo real.
 

@@ -1,6 +1,10 @@
 DeepSkyCopilot - Registro de cambios
 (novedades por versión publicada; lo más reciente arriba)
 
+2026-11-26
+- Nuevo: acceso al móvil también desde fuera de casa (botón Servidor web de la cabecera > «Permitir también desde fuera de casa (por internet)»): con ello la misma página del móvil, con las mismas opciones (alineación polar, mover el telescopio, cola, fotos…), funciona por internet con el mismo QR. Es opcional y viene apagado; el ordenador solo se conecta hacia fuera, no se abre ningún puerto.
+- Nuevo: avisos en el móvil con la app gratuita ntfy, sin cuentas ni bots (Ajustes > Avisos en el móvil): escaneas un código con el móvil, instalas la app y te llega un aviso si algo falla (nubes, problemas) y, al terminar la noche, un resumen con lo conseguido en cada objetivo y la foto del apilado en directo.
+
 2026-11-24
 - Nuevo: Seestar S30 Plus en la lista de telescopios (focal, sensor, campo y ganancia 200 propios).
 - Corregido: el campo del simulador del Seestar S30 Pro salía más pequeño del real (píxel del sensor mal).

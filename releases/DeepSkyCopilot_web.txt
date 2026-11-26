@@ -1,6 +1,10 @@
 DeepSkyCopilot - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+2026-11-26
+- **Tu noche en el móvil, estés donde estés.** La página del móvil ya no necesita que estés en la misma wifi: puedes seguir la sesión, ver la última foto y parar la cola desde cualquier sitio con internet, o alinear aunque la wifi no te llegue hasta donde estás. Sin tocar nada en tu router.
+- **Avisos en tu móvil.** Escaneas un código con el móvil, instalas una app gratuita y te avisamos si algo falla durante la noche; al terminar, te llega un resumen de lo que has conseguido. Sin cuentas ni nada que configurar.
+
 2026-11-21
 - **Mira cómo pasa el objeto por tu cielo.** Una gráfica te enseña a qué hora sube y baja lo que quieres fotografiar, y marca en rojo los ratos en que no lo verás desde tu casa.
 

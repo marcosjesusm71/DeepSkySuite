@@ -1,6 +1,17 @@
 DeepSkyForce - What's new
 =========================
 
+26/11/2026
+- While analysing or stacking, a panel replaces the viewer: it shows the process steps, the elapsed time and, when stacking, the image taking shape with the frames added so far.
+- A comparison bar over the image, draggable by its handle: the original shows on its left and the current image on its right. "View original" hides it and shows the whole original.
+- Stack deconvolution (Settings > Processing, on): uses the real shape of the session's stars to sharpen them and show finer detail; it is not applied without enough stars.
+- Smart processing now separates faint stars too: more of them are kept and, with «Reduce stars» at 100 %, all of them disappear evenly.
+- Hubble palette: two independent sliders, «Gold» and «Blue» (0–150 %), grouped with the checkbox and the split in their own card, that blend each colour with the original image; for example, in M31 you can lower the gold and raise the blue.
+- Zones have a «Hubble palette» slider to lower (down to the original colour) or raise the palette strength only inside the zone.
+- While something works in the background (for example when turning on smart processing), an animated bar and a «Processing…» notice appear over the image without blocking the viewer.
+- Fixed: colours of Seestar S30 Pro sessions were wrong (red and blue swapped); the colour pattern offset in the header is now honoured, also in the frame review thumbnails.
+- Fixed: the «Star colour» slider had no effect (and low saturation did not desaturate stars either) since the mix with the classic stretch; it works again.
+
 24/11/2026
 - The signature recognises the Seestar S30 Plus and writes its full name.
 

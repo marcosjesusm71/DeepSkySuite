@@ -1,6 +1,17 @@
 DeepSkyForce - Novedades
 ========================
 
+26/11/2026
+- Mientras se analiza o se apila, un panel sustituye al visor: muestra las fases del proceso, el tiempo transcurrido y, al apilar, la imagen que va saliendo con los fotogramas sumados hasta ahora.
+- Una barra de comparación sobre la imagen, arrastrable desde su tirador: a su izquierda se ve el original y a su derecha la imagen actual. «Ver original» la esconde y muestra el original entero.
+- Deconvolución del apilado (Ajustes > Procesamiento, activada): usa la forma real de las estrellas de la sesión para afinarlas y mostrar mejor el detalle; sin estrellas suficientes no se aplica.
+- El procesado inteligente separa también las estrellas débiles: se conservan más y, con «Reducir estrellas» al 100 %, desaparecen todas por igual.
+- Paleta Hubble: dos sliders independientes, «Dorado» y «Azul» (0–150 %), agrupados con la casilla y el reparto en una tarjeta propia, que mezclan cada color con la imagen original; por ejemplo, en M31 se puede bajar el dorado y subir el azul.
+- Las zonas tienen un slider «Paleta Hubble» para bajar (hasta dejar el color original) o subir la fuerza de la paleta sólo dentro de la zona.
+- Mientras trabaja algo por detrás (por ejemplo al activar el procesado inteligente), sobre la imagen aparece una barra animada y un aviso «Procesando…» que no bloquean el visor.
+- Corregido: los colores de las sesiones del Seestar S30 Pro salían mal (rojo y azul cambiados); ahora se lee el desplazamiento del patrón de color de la cabecera, también en las miniaturas de la revisión de fotogramas.
+- Corregido: el slider «Color de estrellas» no tenía efecto (ni la saturación baja desaturaba las estrellas) desde la mezcla con el estirado clásico; vuelve a funcionar.
+
 24/11/2026
 - La firma reconoce el Seestar S30 Plus y escribe su nombre completo.
 

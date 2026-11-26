@@ -1,6 +1,11 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+26/11/2026
+- **Finer, sharper stars.** Your images gain definition: stars come out smaller and more faint stars show up, without touching a thing.
+- **Watch your image take shape.** While it is processing, you see the steps of the work and the image appearing with each frame added.
+- **The Hubble palette, your way.** Choose how much gold and how much blue you want, even zone by zone, and leave the rest of the image in its natural colour.
+
 21/11/2026
 - **Striking nebulae without losing detail.** The smart finish brings out the nebula and darkens the sky, and now keeps stars and fine details just as they are: a far more striking image that still looks real.
 

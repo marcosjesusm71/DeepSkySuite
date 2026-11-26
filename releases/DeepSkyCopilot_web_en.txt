@@ -1,6 +1,10 @@
 DeepSkyCopilot - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+2026-11-26
+- **Your night on your phone, wherever you are.** The phone page no longer needs you to be on the same Wi-Fi: follow the session, see the latest photo and stop the queue from anywhere with internet, or align even when the Wi-Fi does not reach where you are. Nothing to change on your router.
+- **Alerts on your phone.** Scan a code with your phone, install a free app and we let you know if something goes wrong during the night; when it ends, you get a summary of what you captured. No accounts, nothing to set up.
+
 2026-11-21
 - **See how the object crosses your sky.** A chart shows when your target rises and sets, and marks in red the times you will not be able to see it from your home.
 
