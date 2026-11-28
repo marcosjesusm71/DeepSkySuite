@@ -1,6 +1,10 @@
 DeepSkyForce - Novedades
 ========================
 
+28/11/2026
+- Luna a partir de un vídeo: al soltar el .avi RAW (lo mejor) o un MP4 se eligen los fotogramas más nítidos, se alinean y se apilan al doble de resolución, con un acabado propio de la Luna (nitidez, contraste local, saturación, brillo y «Luna mineral», que separa el color de los mares y las tierras altas) que se ajusta en vivo. La imagen sale con el encuadre del vídeo y se recorta o gira como cualquier otra (el recorte se mantiene al cambiar los ajustes).
+- Sol a partir de un vídeo con filtro solar: el astro se reconoce por el nombre del archivo o, si no dice nada, por el contenido del vídeo (y se puede cambiar en el selector Astro). Tiene su propio acabado, con color natural por defecto: «Reducir ruido» (evita la piel de naranja), «Manchas» (oscurece y define manchas y poros solo donde destacan del ruido), «Aplanar disco» (quita el oscurecimiento del borde y el velo de las nubes), nitidez, brillo y un «Color solar» opcional. Con nubes, cada fotograma se lleva al mismo nivel antes de sumarlos.
+
 26/11/2026
 - Mientras se analiza o se apila, un panel sustituye al visor: muestra las fases del proceso, el tiempo transcurrido y, al apilar, la imagen que va saliendo con los fotogramas sumados hasta ahora.
 - Una barra de comparación sobre la imagen, arrastrable desde su tirador: a su izquierda se ve el original y a su derecha la imagen actual. «Ver original» la esconde y muestra el original entero.

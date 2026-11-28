@@ -1,6 +1,10 @@
 DeepSkyForce - What's new
 =========================
 
+28/11/2026
+- Moon from a video: drop the RAW .avi (best) or an MP4 and the sharpest frames are picked, aligned and stacked at double resolution, with a finish made for the Moon (sharpness, local contrast, saturation, brightness and «Mineral Moon», which separates the colour of the maria and the highlands) that you adjust live. The image comes out with the video's framing and can be cropped or rotated like any other (the crop is kept when you change the settings).
+- Sun from a video with a solar filter: the object is recognised from the file name or, if that says nothing, from the video content (and can be changed in the Object selector). It has its own finish, with natural colour by default: «Reduce noise» (avoids the orange-peel look), «Sunspots» (darkens and defines spots and pores only where they stand out from the noise), «Flatten disc» (removes the darkening at the edge and the veil of the clouds), sharpness, brightness and an optional «Solar colour». With clouds, every frame is brought to the same level before they are added.
+
 26/11/2026
 - While analysing or stacking, a panel replaces the viewer: it shows the process steps, the elapsed time and, when stacking, the image taking shape with the frames added so far.
 - A comparison bar over the image, draggable by its handle: the original shows on its left and the current image on its right. "View original" hides it and shows the whole original.

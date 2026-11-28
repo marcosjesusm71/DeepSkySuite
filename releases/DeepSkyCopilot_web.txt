@@ -1,6 +1,11 @@
 DeepSkyCopilot - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+2026-11-28
+- **Vídeos de la Luna.** Elige la Luna en el mapa y la app graba un vídeo listo para apilar en DeepSkyForce, con la exposición y el centrado ajustados por sí solos.
+- **Mosaicos estirando el encuadre.** Arrastra las asas del encuadre en el mapa para cubrir la zona que te interesa y la app calcula las fotos que hacen falta y, si no caben en una noche, cuántas noches necesitas.
+- **Elegir y añadir en una sola pantalla.** La tabla de lo que se ve esta noche, el objeto elegido y el mapa del cielo van juntos: un clic elige, otro lo añade al plan.
+
 2026-11-26
 - **Tu noche en el móvil, estés donde estés.** La página del móvil ya no necesita que estés en la misma wifi: puedes seguir la sesión, ver la última foto y parar la cola desde cualquier sitio con internet, o alinear aunque la wifi no te llegue hasta donde estás. Sin tocar nada en tu router.
 - **Avisos en tu móvil.** Escaneas un código con el móvil, instalas una app gratuita y te avisamos si algo falla durante la noche; al terminar, te llega un resumen de lo que has conseguido. Sin cuentas ni nada que configurar.

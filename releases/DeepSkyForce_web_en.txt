@@ -1,6 +1,10 @@
 DeepSkyForce - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+28/11/2026
+- **The Moon, with all its relief and colour.** Drop in a video of the Moon and get a sharp photo of the Moon, with crisp craters and an optional mineral colour.
+- **The Sun, with its surface revealed.** Drop in a video of the Sun and get a clean, natural, grain-free disc with the sunspots clearly marked, even with light clouds.
+
 26/11/2026
 - **Finer, sharper stars.** Your images gain definition: stars come out smaller and more faint stars show up, without touching a thing.
 - **Watch your image take shape.** While it is processing, you see the steps of the work and the image appearing with each frame added.

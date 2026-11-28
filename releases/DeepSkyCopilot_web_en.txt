@@ -1,6 +1,11 @@
 DeepSkyCopilot - Highlights for the website
 (what is worth highlighting in each published release, in plain language; most recent first)
 
+2026-11-28
+- **Moon videos.** Pick the Moon on the map and the app records a video ready to stack in DeepSkyForce, with the exposure and centring adjusted by themselves.
+- **Mosaics by stretching the framing.** Drag the framing's handles on the map to cover the area you want and the app works out the photos needed and, if they don't fit in one night, how many nights you need.
+- **Pick and add on a single screen.** Tonight's table, the chosen object and the sky map sit together: one click picks, another adds it to the plan.
+
 2026-11-26
 - **Your night on your phone, wherever you are.** The phone page no longer needs you to be on the same Wi-Fi: follow the session, see the latest photo and stop the queue from anywhere with internet, or align even when the Wi-Fi does not reach where you are. Nothing to change on your router.
 - **Alerts on your phone.** Scan a code with your phone, install a free app and we let you know if something goes wrong during the night; when it ends, you get a summary of what you captured. No accounts, nothing to set up.

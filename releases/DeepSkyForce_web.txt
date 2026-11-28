@@ -1,6 +1,10 @@
 DeepSkyForce - Novedades destacadas para la web
 (lo que merece destacarse de cada versión publicada, en lenguaje sencillo; lo más reciente arriba)
 
+28/11/2026
+- **La Luna, con todo su relieve y su color.** Suelta un vídeo de la Luna y obtienes una foto de la Luna nítida, con los cráteres marcados y un color mineral opcional.
+- **El Sol, con su superficie al descubierto.** Suelta un vídeo del Sol y obtienes un disco limpio y natural, sin grano, con las manchas solares bien marcadas aunque haya nubes ligeras.
+
 26/11/2026
 - **Estrellas más finas y nítidas.** Tus imágenes ganan definición: las estrellas salen más pequeñas y se distinguen más estrellas débiles, sin tocar nada.
 - **Mira cómo se forma tu imagen.** Mientras se procesa, ves las fases del trabajo y la imagen apareciendo con cada fotograma que se suma.
